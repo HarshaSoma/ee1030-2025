@@ -1,99 +1,83 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 
-u = np.array([1.0, 0.0, 0.0])
-v = np.array([0.25, np.sqrt(15)/4, 0.0])
+u = np.array([1, 0, 0])
+v = np.array([1/4, np.sqrt(15)/4, 0])
+w = np.array([1, 3/np.sqrt(15), 4*np.sqrt(2)/np.sqrt(15)])
 
-print("Vector u:", u)
-print("Vector v:", v)
-print("\nMagnitude of u:", np.linalg.norm(u))
-print("Magnitude of v:", np.linalg.norm(v))
-print("u · v:", np.dot(u, v))
+print("--- Verification of Given Conditions ---")
 
-alpha = 0.2
-beta = 0.2
-u_cross_v = np.cross(u, v)
-mag_cross = np.linalg.norm(u_cross_v)
-gamma = np.sqrt(2) / mag_cross
+norm_u = np.linalg.norm(u)
+norm_v = np.linalg.norm(v)
+print(f"Magnitude of u: {norm_u:.4f}")
+print(f"Is u a unit vector? {np.isclose(norm_u, 1)}")
+print(f"Magnitude of v: {norm_v:.4f}")
+print(f"Is v a unit vector? {np.isclose(norm_v, 1)}\n")
 
-w = alpha*u + beta*v + gamma*u_cross_v
+dot_uv = np.dot(u, v)
+dot_uw = np.dot(u, w)
+dot_vw = np.dot(v, w)
+print(f"Dot product u · v: {dot_uv:.4f} (Expected: 0.25)")
+print(f"Dot product u · w: {dot_uw:.4f} (Expected: 1.00)")
+print(f"Dot product v · w: {dot_vw:.4f} (Expected: 1.00)\n")
 
-print("\nVector w:", w)
-print("u · w:", np.dot(u, w))
-print("v · w:", np.dot(v, w))
+matrix = np.array([u, v, w])
+volume = np.abs(np.linalg.det(matrix))
+expected_volume = np.sqrt(2)
+print(f"Volume of parallelepiped: {volume:.4f}")
+print(f"Expected volume (√2):    {expected_volume:.4f}")
+print(f"Is volume correct? {np.isclose(volume, expected_volume)}\n")
 
-volume = np.abs(np.dot(u, np.cross(v, w)))
-print("Volume:", volume)
+print("--- Final Answer Computation ---")
+resultant_vector = 3 * u + 5 * v
+magnitude_resultant = np.linalg.norm(resultant_vector)
+analytical_answer = np.sqrt(83/2)
 
-result_vec = 3*u + 5*v
-result_mag = np.linalg.norm(result_vec)
+print(f"Resultant vector (3u + 5v): {resultant_vector}")
+print(f"Value of |3u + 5v| (numerical): {magnitude_resultant:.4f}")
+print(f"Value of |3u + 5v| (analytical, √83/2): {analytical_answer:.4f}\n")
 
-print("\n3u + 5v:", result_vec)
-print("|3u + 5v|:", result_mag)
+fig = plt.figure(figsize=(10, 8))
+ax = fig.add_subplot(projection='3d')
 
-fig = plt.figure(figsize=(14, 10))
+origin = np.array([0, 0, 0])
 
-ax1 = fig.add_subplot(2, 2, 1, projection='3d')
-ax1.quiver(0, 0, 0, u[0], u[1], u[2], color='r', arrow_length_ratio=0.15, linewidth=3, label='u')
-ax1.quiver(0, 0, 0, v[0], v[1], v[2], color='g', arrow_length_ratio=0.15, linewidth=3, label='v')
-ax1.quiver(0, 0, 0, w[0], w[1], w[2], color='b', arrow_length_ratio=0.15, linewidth=3, label='w')
-ax1.set_xlabel('X')
-ax1.set_ylabel('Y')
-ax1.set_zlabel('Z')
-ax1.set_title('Vectors u, v, w')
-ax1.legend()
-ax1.grid(True)
+ax.quiver(*origin, *u, color='r', label='u')
+ax.quiver(*origin, *v, color='g', label='v')
+ax.quiver(*origin, *w, color='b', label='w')
+ax.quiver(*origin, *resultant_vector, color='m', label='3u + 5v', linewidth=2, arrow_length_ratio=0.1)
 
-ax2 = fig.add_subplot(2, 2, 2, projection='3d')
-vertices = np.array([[0, 0, 0], u, v, w, u+v, u+w, v+w, u+v+w])
-faces = [[vertices[0], vertices[1], vertices[4], vertices[2]],
-         [vertices[0], vertices[1], vertices[5], vertices[3]],
-         [vertices[0], vertices[2], vertices[6], vertices[3]],
-         [vertices[7], vertices[4], vertices[1], vertices[5]],
-         [vertices[7], vertices[4], vertices[2], vertices[6]],
-         [vertices[7], vertices[5], vertices[3], vertices[6]]]
-poly = Poly3DCollection(faces, alpha=0.25, facecolor='cyan', edgecolor='k', linewidth=1.5)
-ax2.add_collection3d(poly)
-ax2.quiver(0, 0, 0, u[0], u[1], u[2], color='r', arrow_length_ratio=0.15, linewidth=2.5)
-ax2.quiver(0, 0, 0, v[0], v[1], v[2], color='g', arrow_length_ratio=0.15, linewidth=2.5)
-ax2.quiver(0, 0, 0, w[0], w[1], w[2], color='b', arrow_length_ratio=0.15, linewidth=2.5)
-max_range = 1.5
-ax2.set_xlim([-0.2, max_range])
-ax2.set_ylim([-0.2, max_range])
-ax2.set_zlim([-0.2, max_range])
-ax2.set_xlabel('X')
-ax2.set_ylabel('Y')
-ax2.set_zlabel('Z')
-ax2.set_title(f'Parallelepiped (Volume={volume:.4f})')
-ax2.grid(True)
+p0 = origin
+p1 = u
+p2 = v
+p3 = w
+p4 = u + v
+p5 = u + w
+p6 = v + w
+p7 = u + v + w
 
-ax3 = fig.add_subplot(2, 2, 3, projection='3d')
-ax3.quiver(0, 0, 0, 3*u[0], 3*u[1], 3*u[2], color='darkred', arrow_length_ratio=0.1, linewidth=2, label='3u')
-ax3.quiver(0, 0, 0, 5*v[0], 5*v[1], 5*v[2], color='darkgreen', arrow_length_ratio=0.1, linewidth=2, label='5v')
-ax3.quiver(0, 0, 0, result_vec[0], result_vec[1], result_vec[2], color='purple', arrow_length_ratio=0.1, linewidth=3, label='3u+5v')
-ax3.set_xlabel('X')
-ax3.set_ylabel('Y')
-ax3.set_zlabel('Z')
-ax3.set_title(f'|3u+5v| = {result_mag:.4f}')
-ax3.legend()
-ax3.grid(True)
+edges = [
+    (p0, p1), (p0, p2), (p0, p3), (p1, p4), (p1, p5),
+    (p2, p4), (p2, p6), (p3, p5), (p3, p6), (p4, p7),
+    (p5, p7), (p6, p7)
+]
 
-ax4 = fig.add_subplot(2, 2, 4, projection='3d')
-ax4.quiver(0, 0, 0, u[0], u[1], u[2], color='r', arrow_length_ratio=0.15, linewidth=2.5, label='u')
-ax4.quiver(0, 0, 0, v[0], v[1], v[2], color='g', arrow_length_ratio=0.15, linewidth=2.5, label='v')
-ax4.quiver(0, 0, 0, w[0], w[1], w[2], color='b', arrow_length_ratio=0.15, linewidth=2.5, label='w')
-ax4.quiver(0, 0, 0, result_vec[0], result_vec[1], result_vec[2], color='purple', arrow_length_ratio=0.1, linewidth=3, label='3u+5v')
-ax4.quiver(0, 0, 0, u_cross_v[0], u_cross_v[1], u_cross_v[2], color='orange', arrow_length_ratio=0.15, linewidth=2, label='u×v')
-ax4.set_xlabel('X')
-ax4.set_ylabel('Y')
-ax4.set_zlabel('Z')
-ax4.set_title('All Vectors')
-ax4.legend()
-ax4.grid(True)
+for start, end in edges:
+    ax.plot(*zip(start, end), color='k', linestyle=':')
 
-plt.tight_layout()
-plt.savefig('vector_3d.png', dpi=200)
+ax.set_xlabel('X axis')
+ax.set_ylabel('Y axis')
+ax.set_zlabel('Z axis')
+ax.set_title('Visualization of Parallelepiped and Vectors')
+
+all_points = np.array([p0, p1, p2, p3, p4, p5, p6, p7, resultant_vector])
+max_val = np.max(all_points)
+min_val = np.min(all_points)
+ax.set_xlim([min_val, max_val])
+ax.set_ylim([min_val, max_val])
+ax.set_zlim([min_val, max_val])
+ax.legend()
+ax.grid(True)
+ax.set_aspect('equal', adjustable='box')
+
 plt.show()
-
-print("\nPlot saved as 'vector_3d.png'")
