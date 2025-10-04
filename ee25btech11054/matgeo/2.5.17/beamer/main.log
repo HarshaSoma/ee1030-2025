@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.29)  3 OCT 2025 13:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.29)  5 OCT 2025 02:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1143,13 +1143,13 @@ LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
 
 ]
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 117.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 115.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 117.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 115.
 
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 117.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 115.
 
 
 
@@ -1168,20 +1168,20 @@ LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
 [6
 
 ]
-<figs/2.5.17 .png, id=63, 722.7pt x 578.16pt>
-File: figs/2.5.17 .png Graphic file (type png)
-<use figs/2.5.17 .png>
-Package pdftex.def Info: figs/2.5.17 .png  used on input line 172.
-(pdftex.def)             Requested size: 273.83728pt x 219.06789pt.
+<figs/image.png, id=75, 796.9775pt x 750.805pt>
+File: figs/image.png Graphic file (type png)
+<use figs/image.png>
+Package pdftex.def Info: figs/image.png  used on input line 179.
+(pdftex.def)             Requested size: 273.83728pt x 257.97401pt.
 
-Overfull \vbox (16.4614pt too high) detected at line 172
+Overfull \vbox (55.36752pt too high) detected at line 179
  []
 
 
 
 [7
 
- <./figs/2.5.17 .png>]
+ <./figs/image.png>]
 \tf@nav=\write6
 \openout6 = `main.nav'.
 
@@ -1200,25 +1200,28 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 39E94648041F9CF5CA9D91810BB8D4F2;78.
  ) 
 Here is how much of TeX's memory you used:
- 26512 strings out of 473197
- 501022 string characters out of 5718605
- 874217 words of memory out of 5000000
- 49196 multiletter control sequences out of 15000+600000
+ 26528 strings out of 473197
+ 501054 string characters out of 5718605
+ 876524 words of memory out of 5000000
+ 49203 multiletter control sequences out of 15000+600000
  580998 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,16n,131p,398b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,19n,131p,398b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (7 pages, 181380 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msbm10.pfb>
+Output written on main.pdf (7 pages, 209409 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 23 named destinations out of 1000 (max. 500000)
+ 142 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
