@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.29)  5 OCT 2025 02:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.8.29)  10 OCT 2025 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -695,423 +695,6 @@ Package: amsthm 2020/05/29 v2.20.6
 \beamer@dimb=\dimen294
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks46
-\inpenc@posthook=\toks47
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/txfonts.sty
-Package: txfonts 2008/01/22 v3.2.1
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
-\symitalic=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
-(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
-\symlettersA=\mathgroup7
-LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
-(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
-LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
-LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
-LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
-(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
-LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
-LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
-LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
-LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
-(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
-LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
-(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
-LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
-(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
-\symsymbolsC=\mathgroup8
-LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
-(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
-\symlargesymbolsA=\mathgroup9
-LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
-(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
-LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
-LaTeX Info: Redefining \not on input line 1043.
-LaTeX Info: Redefining \textsquare on input line 1063.
-LaTeX Info: Redefining \openbox on input line 1064.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty
-2024/04/19 5.10c tkz-euclide.sty
-Package: tkz-euclide  2024/04/19 5.10c for pure Euclidean Geometry 
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-Package: pgf 2023-01-15 v3.1.10 (3.1.10)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box77
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
-.sty
-Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen295
-\pgf@nodesepend=\dimen296
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
-.sty
-Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen297
-\pgffor@skip=\dimen298
-\pgffor@stack=\toks48
-\pgffor@toks=\toks49
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2023-01-15 v3.1.10 (3.1.10)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
-.code.tex
-File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count345
-\pgfplotmarksize=\dimen299
-)
-\tikz@lastx=\dimen300
-\tikz@lasty=\dimen301
-\tikz@lastxsaved=\dimen302
-\tikz@lastysaved=\dimen303
-\tikz@lastmovetox=\dimen304
-\tikz@lastmovetoy=\dimen305
-\tikzleveldistance=\dimen306
-\tikzsiblingdistance=\dimen307
-\tikz@figbox=\box78
-\tikz@figbox@bg=\box79
-\tikz@tempbox=\box80
-\tikz@tempbox@bg=\box81
-\tikztreelevel=\count346
-\tikznumberofchildren=\count347
-\tikznumberofcurrentchild=\count348
-\tikz@fig@count=\count349
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count350
-\pgfmatrixcurrentcolumn=\count351
-\pgf@matrix@numberofcolumns=\count352
-)
-\tikz@expandcount=\count353
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryangles.code.tex
-File: tikzlibraryangles.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
-tex
-File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen308
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
-code.tex
-File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen309
-\pgfarrowlength=\dimen310
-\pgfarrowwidth=\dimen311
-\pgfarrowlinewidth=\dimen312
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarybackgrounds.code.tex
-File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@layerbox@background=\box82
-\pgf@layerboxsaved@background=\box83
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
-e.tex
-\pgfdecoratedcompleteddistance=\dimen313
-\pgfdecoratedremainingdistance=\dimen314
-\pgfdecoratedinputsegmentcompleteddistance=\dimen315
-\pgfdecoratedinputsegmentremainingdistance=\dimen316
-\pgf@decorate@distancetomove=\dimen317
-\pgf@decorate@repeatstate=\count354
-\pgfdecorationsegmentamplitude=\dimen318
-\pgfdecorationsegmentlength=\dimen319
-)
-\tikz@lib@dec@box=\box84
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.markings.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.markings.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.pathreplacing.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.pathreplacing.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.shapes.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.shapes.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.text.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.text.code.tex
-\pgf@lib@dec@text@box=\box85
-)
-\tikz@lib@dec@te@box=\box86
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.pathmorphing.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.pathmorphing.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryintersections.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersection
-s.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
-)
-\pgf@intersect@solutions=\count355
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarymath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryfpu.code.tex)
-\tikz@math@for@depth=\count356
-\tikz@math@dimen=\dimen320
-\tikz@math@toks=\toks50
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryplotmarks.code.tex
-File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
-de.tex
-File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryquotes.code.tex
-File: tikzlibraryquotes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.misc.code.tex
-File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarythrough.code.tex
-File: tikzlibrarythrough.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xfp/xfp.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-01-18 L3 programming layer (loader) 
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count357
-\l__pdf_internal_box=\box87
-))
-Package: xfp 2024-08-16 L3 Floating point unit
-)
-(/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
-Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
-))
-\tkzRadius=\dimen321
-\tkzLength=\dimen322
-\tkz@radi=\dimen323
-\tkz@ax=\dimen324
-\tkz@ay=\dimen325
-\tkz@bx=\dimen326
-\tkz@by=\dimen327
-\tkz@cx=\dimen328
-\tkz@cy=\dimen329
-\tkz@dx=\dimen330
-\tkz@dy=\dimen331
-\tkz@cntmk=\count358
-
-Local configuration file tkz-euclide.cfg found and used
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.cfg
-2024/04/19 5.10c tkz-euclide.cfg
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-base.tex
-2024/04/19 5.10c tkz-tools-eu-base.tex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-utilities.tex
-2024/04/19 5.10c tkz-tools-eu-utilities.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-BB.tex
-2024/04/19 5.10c tkz-obj-eu-BB.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-grids.tex
-2024/04/19 5.10c tkz-obj-eu-grids.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-marks.tex
-2024/04/19 5.10c tkz-lib-eu-marks.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-text.tex
-2024/04/19 5.10c tkz-tools-eu-text.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-shape.tex
-2024/04/19 5.10c tkz-lib-eu-shape.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-axesmin.tex
-2024/04/19 5.10c tkz-obj-eu-axesmin
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-colors.tex
-2024/04/19 5.10c tkz-tools-eu-colors
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
-2024/04/19 5.10c tkz-obj-eu-points.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-points.tex
-2024/04/19 5.10c tkz-draw-eu-points.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
-2024/04/19 5.10c tkz-obj-eu-points.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-by.tex
-2024/04/19 5.10c tkz-tools-eu-points-by.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-math.tex
-2024/04/19 5.10c tkz-tools-eu-math.tex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-intersections
-.tex
-2024/04/19 5.10c tkz-tools-eu-intersections.tex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-with.tex
-2024/04/19 5.10c tkz-obj-eu-points-with.tex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-spc.tex
-2024/04/19 5.10c tkz-obj-el-points.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-angles.tex
-2024/04/19 5.10c tkz-tools-eu-angles.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles.tex
-2024/04/19 5.10c tkz-obj-eu-circles.tex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles-by.tex
-2024/04/19 5.10c tkz-obj-eu-circles.tex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-rnd.tex
-2024/04/19 5.10c tkz-obj-eu-points-rnd.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lines.tex
-2024/04/19 5.10c tkz-obj-eu-lines.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-polygons.tex
-2024/04/19 5.10c tkz-obj-eu-polygons.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.tex
-2024/04/19 5.10c tkz-obj-eu-triangles.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-lines.tex
-2024/04/19 5.10c tkz-obj-eu-draw-lines.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-circles.tex
-2024/04/19 5.10c tkz-obj-eu-draw-circles.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-ellipses.tex
-2024/04/19 5.10c tkz-obj-eu-draw-ellipses.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-polygons.tex
-2024/04/19 5.10c tkz-obj-eu-polygons.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-arcs.tex
-2024/04/19 5.10c tkz-tool-eu-arcs.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-angles.tex
-2024/04/19 5.10c tkz-tool-eu-angles.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-sectors.tex
-2024/04/19 5.10c tkz-obj-eu-sectors.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-compass.tex
-2024/04/19 5.10c tkz-obj-eu-compass.tex
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-show.tex
-2024/04/19 5.10c tkz-obj-eu-show.tex
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-protractor.tex
-2024/04/19 5.10c tkz-obj-eu-protractor.tex
-)) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count359
-\lst@gtempboxa=\box88
-\lst@token=\toks51
-\lst@length=\count360
-\lst@currlwidth=\dimen332
-\lst@column=\count361
-\lst@pos=\count362
-\lst@lostspace=\dimen333
-\lst@width=\dimen334
-\lst@newlines=\count363
-\lst@lineno=\count364
-\lst@maxwidth=\dimen335
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count365
-\lst@skipnumbers=\count366
-\lst@framebox=\box89
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2024/09/23 1.10c listings configuration
-))
-Package: listings 2024/09/23 1.10c (Carsten Heinz)
-
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
 
@@ -1120,10 +703,10 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks52
-\XKV@tempa@toks=\toks53
+\XKV@toks=\toks46
+\XKV@tempa@toks=\toks47
 )
-\XKV@depth=\count367
+\XKV@depth=\count345
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -1135,383 +718,250 @@ Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
 
 (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box90
+\collectedbox=\box77
 )
-\tc@llx=\dimen336
-\tc@lly=\dimen337
-\tc@urx=\dimen338
-\tc@ury=\dimen339
+\tc@llx=\dimen295
+\tc@lly=\dimen296
+\tc@urx=\dimen297
+\tc@ury=\dimen298
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen340
-\adjbox@Height=\dimen341
-\adjbox@Depth=\dimen342
-\adjbox@Totalheight=\dimen343
-\adjbox@pwidth=\dimen344
-\adjbox@pheight=\dimen345
-\adjbox@pdepth=\dimen346
-\adjbox@ptotalheight=\dimen347
+\adjbox@Width=\dimen299
+\adjbox@Height=\dimen300
+\adjbox@Depth=\dimen301
+\adjbox@Totalheight=\dimen302
+\adjbox@pwidth=\dimen303
+\adjbox@pheight=\dimen304
+\adjbox@pdepth=\dimen305
+\adjbox@ptotalheight=\dimen306
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count368
+\c@checkoddpage=\count346
 )
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box91
-\sift@deathcycles=\count369
-\@vwid@loff=\dimen348
-\@vwid@roff=\dimen349
+\@vwid@box=\box78
+\sift@deathcycles=\count347
+\@vwid@loff=\dimen307
+\@vwid@roff=\dimen308
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen350
-\ar@mcellbox=\box92
-\extrarowheight=\dimen351
-\NC@list=\toks54
-\extratabsurround=\skip66
-\backup@length=\skip67
-\ar@cellbox=\box93
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-\TX@col@width=\dimen352
-\TX@old@table=\dimen353
-\TX@old@col=\dimen354
-\TX@target=\dimen355
-\TX@delta=\dimen356
-\TX@cols=\count370
-\TX@ftn=\toks55
-)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 
-! LaTeX Error: File `gvv.sty' not found.
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen309
+\captionmargin=\dimen310
+\caption@leftmargin=\dimen311
+\caption@rightmargin=\dimen312
+\caption@width=\dimen313
+\caption@indent=\dimen314
+\caption@parindent=\dimen315
+\caption@hangindent=\dimen316
+Package caption Info: beamer document class detected.
 
-Enter file name: 
-(/usr/share/texmf/tex/latex/lm/lmodern.sty
-Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/txr/m/n --> OT1/lmr/m/n on input line 22.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/txmi/m/it --> OML/lmm/m/it on input line 23.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/txsy/m/n --> OMS/lmsy/m/n on input line 24.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/txex/m/n --> OMX/lmex/m/n on input line 25.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/txr/bx/n --> OT1/lmr/bx/n on input line 26.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/txmi/bx/it --> OML/lmm/b/it on input line 27.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/txsy/bx/n --> OMS/lmsy/b/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/txex/bx/n --> OMX/lmex/m/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/txr/bx/n --> OT1/lmr/bx/n on input line 31.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/txss/m/n --> OT1/lmss/m/n on input line 32.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/txr/m/it --> OT1/lmr/m/it on input line 33.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/txtt/m/n --> OT1/lmtt/m/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/txr/bx/n --> OT1/lmr/bx/n on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/txss/b/n --> OT1/lmss/bx/n on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/txr/bx/it --> OT1/lmr/bx/it on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/txtt/b/n --> OT1/lmtt/m/n on input line 38.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/circuitikz/circuitikz.sty
-Package: circuitikz 2025/01/10{} The CircuiTikz circuit drawing package version
- 1.7.1
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarybending.code.tex
-File: tikzlibrarybending.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulebending.code.te
-x
-File: pgfmodulebending.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransf
-ormations.code.tex
-File: pgfmodulenonlineartransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgftransformnonlinearflatness=\dimen357
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.
-code.tex
-File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@curvilinear@time@a=\dimen358
-\pgf@curvilinear@length@a=\dimen359
-\pgf@curvilinear@length@b=\dimen360
-\pgf@curvilinear@length@c=\dimen361
-\pgf@curvilinear@length@d=\dimen362
-)
-\pgf@arrows@the@rigidity=\dimen363
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption-beamer.sto
+File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
+e beamer document classes (AR)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
-\pgf@circ@count@a=\count371
-\pgf@circ@count@b=\count372
-\pgf@circ@count@c=\count373
-\pgf@circ@res@up=\dimen364
-\pgf@circ@res@down=\dimen365
-\pgf@circ@res@zero=\dimen366
-\pgf@circ@res@left=\dimen367
-\pgf@circ@res@right=\dimen368
-\pgf@circ@res@other=\dimen369
-\pgf@circ@res@step=\dimen370
-\pgf@circ@res@temp=\dimen371
-\pgf@circ@Rlen=\dimen372
-\pgf@circ@scaled@Rlen=\dimen373
-\pgfstartlinewidth=\dimen374
+\c@caption@flags=\count348
+\c@continuedfloat=\count349
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex
-\ctikz@scratchbox=\box94
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count350
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count351
 )
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
-\pgf@circ@res@count=\count374
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip66
+\enit@outerparindent=\dimen317
+\enit@toks=\toks48
+\enit@inbox=\box79
+\enit@count@id=\count352
+\enitdp@description=\count353
 )
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
-\pgfcirc@labelshift=\dimen375
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
+\c@tracingmulticols=\count354
+\mult@box=\box80
+\multicol@leftmargin=\dimen318
+\c@unbalance=\count355
+\c@collectmore=\count356
+\doublecol@number=\count357
+\multicoltolerance=\count358
+\multicolpretolerance=\count359
+\full@width=\dimen319
+\page@free=\dimen320
+\premulticols=\dimen321
+\postmulticols=\dimen322
+\multicolsep=\skip67
+\multicolbaselineskip=\skip68
+\partial@page=\box81
+\last@line=\box82
+\mc@boxedresult=\box83
+\maxbalancingoverflow=\dimen323
+\mult@rightbox=\box84
+\mult@grightbox=\box85
+\mult@firstbox=\box86
+\mult@gfirstbox=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\c@minrows=\count360
+\c@columnbadness=\count361
+\c@finalcolumnbadness=\count362
+\last@try=\dimen324
+\multicolovershoot=\dimen325
+\multicolundershoot=\dimen326
+\mult@nat@firstbox=\box124
+\colbreak@box=\box125
+\mc@col@check@num=\count363
 )
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks56
-\verbatim@line=\toks57
-\verbatim@in@stream=\read3
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count364
+\calc@Bcount=\count365
+\calc@Adimen=\dimen327
+\calc@Bdimen=\dimen328
+\calc@Askip=\skip69
+\calc@Bskip=\skip70
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count366
+\calc@Cskip=\skip71
 )
-(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
-Package: environ 2014/05/04 v0.3 A new way to define environments
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count367
+\l_MT_multwidth_dim=\dimen329
+\origjot=\skip72
+\l_MT_shortvdotswithinadjustabove_dim=\dimen330
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen331
+\l_MT_above_intertext_sep=\dimen332
+\l_MT_below_intertext_sep=\dimen333
+\l_MT_above_shortintertext_sep=\dimen334
+\l_MT_below_shortintertext_sep=\dimen335
+\xmathstrut@box=\box126
+\xmathstrut@dim=\dimen336
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count368
+\lst@gtempboxa=\box127
+\lst@token=\toks49
+\lst@length=\count369
+\lst@currlwidth=\dimen337
+\lst@column=\count370
+\lst@pos=\count371
+\lst@lostspace=\dimen338
+\lst@width=\dimen339
+\lst@newlines=\count372
+\lst@lineno=\count373
+\lst@maxwidth=\dimen340
 
-(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-))
-\tcb@titlebox=\box95
-\tcb@upperbox=\box96
-\tcb@lowerbox=\box97
-\tcb@phantombox=\box98
-\c@tcbbreakpart=\count375
-\c@tcblayer=\count376
-\c@tcolorbox@number=\count377
-\l__tcobox_tmpa_box=\box99
-\l__tcobox_tmpa_dim=\dimen376
-\tcb@temp=\box100
-\tcb@temp=\box101
-\tcb@temp=\box102
-\tcb@temp=\box103
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbminted.code.tex
-Library (tcolorbox): 'tcbminted.code.tex' version '6.4.1'
-(/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
-Package: minted 2025/03/06 v3.6.0 Yet another Pygments shim for LaTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
-Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/fvextra/fvextra.sty
-Package: fvextra 2025/03/04 v1.12.0 fvextra - extensions and patches for fancyv
-rb
-
-(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count378
-\FV@InFile=\read4
-\FV@TabBox=\box104
-\c@FancyVerbLine=\count379
-\FV@StepNumber=\count380
-\FV@OutFile=\write5
-)
-(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
-tim
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
-))
-(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
-Package: lineno 2025/01/29 line numbers on paragraphs v5.4
-\linenopenalty=\count381
-\output=\toks58
-\linenoprevgraf=\count382
-\linenumbersep=\dimen377
-\linenumberwidth=\dimen378
-\c@linenumber=\count383
-\c@pagewiselinenumber=\count384
-\c@LN@truepage=\count385
-\c@internallinenumber=\count386
-\c@internallinenumbers=\count387
-\quotelinenumbersep=\dimen379
-\bframerule=\dimen380
-\bframesep=\dimen381
-\bframebox=\box105
-\@LN@amsmath@ams@eqpen=\count388
-LaTeX Info: Redefining \\ on input line 3187.
-)
-\c@FancyVerbWriteLine=\count389
-\c@FancyVerbBufferLine=\count390
-\c@FV@TrueTabGroupLevel=\count391
-\c@FV@TrueTabCounter=\count392
-\FV@TabBox@Group=\box106
-\FV@bgcolorstructbox=\box107
-\FV@TmpLength=\skip68
-\c@FV@HighlightLinesStart=\count393
-\c@FV@HighlightLinesStop=\count394
-\FV@LoopCount=\count395
-\FV@NCharsBox=\box108
-\FV@BreakIndent=\dimen382
-\FV@BreakIndentNChars=\count396
-\FV@BreakSymbolSepLeft=\dimen383
-\FV@BreakSymbolSepLeftNChars=\count397
-\FV@BreakSymbolSepRight=\dimen384
-\FV@BreakSymbolSepRightNChars=\count398
-\FV@BreakSymbolIndentLeft=\dimen385
-\FV@BreakSymbolIndentLeftNChars=\count399
-\FV@BreakSymbolIndentRight=\dimen386
-\FV@BreakSymbolIndentRightNChars=\count400
-\c@FancyVerbLineBreakLast=\count401
-\FV@LineBox=\box109
-\FV@LineIndentBox=\box110
-\c@FV@BreakBufferDepth=\count402
-\FV@LineWidth=\dimen387
-)
-(/usr/share/texlive/texmf-dist/tex/latex/latex2pydata/latex2pydata.sty
-Package: latex2pydata 2025/03/03 v0.5.0 latex2pydata - write data to file in Py
-thon literal format
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
-Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks59
-\pgfopts@list@add@b@toks=\toks60
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
-Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 77.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count403
-\float@exts=\toks61
-\float@box=\box111
-\@float@everytoks=\toks62
-\@floatcapt=\box112
-)
-\c@minted@FancyVerbLineTemp=\count404
-\@float@every@listing=\toks63
-\c@listing=\count405
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
-Library (tcolorbox): 'tcblistingscore.code.tex' version '6.4.1'
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
-Library (tcolorbox): 'tcbprocessing.code.tex' version '6.4.1'
-)
-\c@tcblisting=\count406
-)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
-Library (tcolorbox): 'tcbbreakable.code.tex' version '6.4.1'
-(/usr/share/texlive/texmf-dist/tex/latex/pdfcol/pdfcol.sty
-Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
-)
-Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
-\tcb@testbox=\box113
-\tcb@totalupperbox=\box114
-\tcb@totallowerbox=\box115
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
-Library (tcolorbox): 'tcbxparse.code.tex' version '6.4.1'
-) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '6.4.1'
-(/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
-Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
-
-(/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
-Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.te
-x
-File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
-\l__tikzfill_img_box=\box116
-)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.4.1'
-)) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count374
+\lst@skipnumbers=\count375
+\lst@framebox=\box128
 )
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeBoadilla.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemerose.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedolphin.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemelily.sty)
+\c@rem=\count376
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 82.
+(hyperref)                removing `\\' on input line 69.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-86.
-(/usr/share/texmf/tex/latex/lm/ot1lmss.fd
-File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./main.aux)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 69.
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count377
+\l__pdf_internal_box=\box129
+)
+(./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 86.
-LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-86.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
-File: omltxmi.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 86.
-LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-86.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
-File: omstxsy.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 86.
-LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-86.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
-File: omxtxex.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 86.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 8
-6.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
-File: utxexa.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1549,17 +999,17 @@ LaTeX Font Info:    ... okay on input line 86.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count407
-\scratchdimen=\dimen388
-\scratchbox=\box117
-\nofMPsegments=\count408
-\nofMParguments=\count409
-\everyMPshowfont=\toks64
-\MPscratchCnt=\count410
-\MPscratchDim=\dimen389
-\MPnumerator=\count411
-\makeMPintoPDFobject=\count412
-\everyMPtoPDFconversion=\toks65
+\scratchcounter=\count378
+\scratchdimen=\dimen341
+\scratchbox=\box130
+\nofMPsegments=\count379
+\nofMParguments=\count380
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count381
+\MPscratchDim=\dimen342
+\MPnumerator=\count382
+\makeMPintoPDFobject=\count383
+\everyMPtoPDFconversion=\toks51
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1569,58 +1019,64 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 86.
+Package hyperref Info: Link coloring OFF on input line 72.
 
 (./main.out) (./main.out)
-\@outlinefile=\write6
-\openout6 = `main.out'.
+\@outlinefile=\write5
+\openout5 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 86.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 72.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 86.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 86.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 86.
-\symnumbers=\mathgroup10
-\sympureletters=\mathgroup11
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 72.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 86.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 86.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 86.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 86.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 86.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 72.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 86.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 86.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 86.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 72.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 86.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 86.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 86.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 72.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 86.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 86.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 72.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 86.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 72.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 86.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> OT1/lmr/b/n on input line 86.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmss/b/n --> OT1/lmss/b/n on input line 86.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 86.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 86.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/b/n on input line 86.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 72.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 72.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 7
+2.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 7
+2.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 72.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1646,929 +1102,119 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-\c@lstlisting=\count413
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count384
  (./main.nav)
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-rm.enc}]
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
-2.
- (/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-92.
-
-(/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-92.
-
-(/usr/share/texmf/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 92.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 92.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 92.
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 9
-2.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
-File: utxsya.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 9
-2.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
-File: utxsyb.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9
-2.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
-File: ot1txr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 9
-2.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
-File: utxmia.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 9
-2.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
-File: utxsyc.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 92.
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 92.
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 92.
-
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc)
 
 [2
 
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-mathit.enc}]
-! Undefined control sequence.
-<argument>  \vec {n_1} = \myvec 
-                                {1 \\ 2 \\ 3}, \quad \vec {n_2} = \myvec {3 ...
-l.123 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.123 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ... 2 \\ 3}, \quad \vec {n_2} = \myvec 
-                                                  {3 \\ 3 \\ 1}. 
-l.123 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.123 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \vec {n_1} = \myvec 
-                                {1 \\ 2 \\ 3}, \quad \vec {n_2} = \myvec {3 ...
-l.123 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.123 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ... 2 \\ 3}, \quad \vec {n_2} = \myvec 
-                                                  {3 \\ 3 \\ 1}. 
-l.123 \end{frame}
-                 
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.123 \end{frame}
-                 
-? 
-! Misplaced \omit.
-\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
-                                                  \kern -\alignsep@ \iftag@ ...
-l.123 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.123 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \myvec 
-                   {\vec {n_1} & \vec {n_2}}^\top \vec {n}=\myvec {0 \\ 0} \...
-l.123 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.123 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ... & \vec {n_2}}^\top \vec {n}=\myvec 
-                                                  {0 \\ 0} \\ \myvec { 1 & 2...
-l.123 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.123 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ... \vec {n}=\myvec {0 \\ 0} \\ \myvec 
-                                                  { 1 & 2 & 3 \\ 3 & 3 & 1 }...
-l.123 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.123 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ... 3 \\ 3 & 3 & 1 } \vec {n} = \myvec 
-                                                  { 0 \\ 0 }. 
-l.123 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.123 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \myvec 
-                   {\vec {n_1} & \vec {n_2}}^\top \vec {n}=\myvec {0 \\ 0} \...
-l.123 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.123 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ... & \vec {n_2}}^\top \vec {n}=\myvec 
-                                                  {0 \\ 0} \\ \myvec { 1 & 2...
-l.123 \end{frame}
-                 
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.123 \end{frame}
-                 
-? 
-! Misplaced \omit.
-\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
-                                                  \kern -\alignsep@ \iftag@ ...
-l.123 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.123 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ... \vec {n}=\myvec {0 \\ 0} \\ \myvec 
-                                                  { 1 & 2 & 3 \\ 3 & 3 & 1 }...
-l.123 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.123 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ... 3 \\ 3 & 3 & 1 } \vec {n} = \myvec 
-                                                  { 0 \\ 0 }. 
-l.123 \end{frame}
-                 
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.123 \end{frame}
-                 
-? 
-! Misplaced \omit.
-\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
-                                                  \kern -\alignsep@ \iftag@ ...
-l.123 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.123 \end{frame}
-                 
-? 
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
 
-Overfull \vbox (32.00937pt too high) detected at line 123
- []
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
 
 
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 87.
+
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
 
 [3
 
 ]
-! Undefined control sequence.
-<argument>  \vec {n} = \myvec 
-                              {a \\ b \\ c} \\ a + 2b + 3c = 0, \\ 3a + 3b +...
-l.142 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.142 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.142 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \vec {n} = \myvec 
-                              {a \\ b \\ c} \\ a + 2b + 3c = 0, \\ 3a + 3b +...
-l.142 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.142 \end{frame}
-                 
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.142 \end{frame}
-                 
-? 
-! Misplaced \omit.
-\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
-                                                  \kern -\alignsep@ \iftag@ ...
-l.142 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.142 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \vec {n} = t \myvec 
-                                {7 \\ -8 \\ 3}, \quad t \in \mathbb {R}, \qu...
-l.142 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.142 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.142 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \vec {n} = t \myvec 
-                                {7 \\ -8 \\ 3}, \quad t \in \mathbb {R}, \qu...
-l.142 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.142 \end{frame}
-                 
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.142 \end{frame}
-                 
-? 
-! Misplaced \omit.
-\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
-                                                  \kern -\alignsep@ \iftag@ ...
-l.142 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.142 \end{frame}
-                 
-? 
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 100.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 100.
+
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 100.
+
 
 
 [4
 
 ]
-! Undefined control sequence.
-\beamer@doifinframe ...nce point $\vec {p}=\myvec 
-                                                  {-1 \\ 3 \\ 2}$ lies on th...
-l.157 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \myvec 
-                   {7 & -8 & 3} \myvec {x \\ y \\ z} = \myvec {7 & -8 & 3}\m...
-l.157 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.157 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \myvec {7 & -8 & 3} \myvec 
-                                       {x \\ y \\ z} = \myvec {7 & -8 & 3}\m...
-l.157 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ... & 3} \myvec {x \\ y \\ z} = \myvec 
-                                                  {7 & -8 & 3}\myvec {-1 \\ ...
-l.157 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ...y \\ z} = \myvec {7 & -8 & 3}\myvec 
-                                                  {-1 \\ 3 \\ 2}. 
-l.157 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.157 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \myvec 
-                   {7 & -8 & 3} \myvec {x \\ y \\ z} = \myvec {7 & -8 & 3}\m...
-l.157 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.157 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \myvec {7 & -8 & 3} \myvec 
-                                       {x \\ y \\ z} = \myvec {7 & -8 & 3}\m...
-l.157 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ... & 3} \myvec {x \\ y \\ z} = \myvec 
-                                                  {7 & -8 & 3}\myvec {-1 \\ ...
-l.157 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ...y \\ z} = \myvec {7 & -8 & 3}\myvec 
-                                                  {-1 \\ 3 \\ 2}. 
-l.157 \end{frame}
-                 
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.157 \end{frame}
-                 
-? 
-! Misplaced \omit.
-\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
-                                                  \kern -\alignsep@ \iftag@ ...
-l.157 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.157 \end{frame}
-                 
-? 
-
 
 [5
 
 ]
-! Undefined control sequence.
-<argument>  \myvec 
-                   {7 & -8 & 3} \myvec {x \\ y \\ z} = \myvec {7 & -8 & 3}\m...
-l.183 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.183 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \myvec {7 & -8 & 3} \myvec 
-                                       {x \\ y \\ z} = \myvec {7 & -8 & 3}\m...
-l.183 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ... & 3} \myvec {x \\ y \\ z} = \myvec 
-                                                  {7 & -8 & 3}\myvec {-1 \\ ...
-l.183 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ...y \\ z} = \myvec {7 & -8 & 3}\myvec 
-                                                  {-1 \\ 3 \\ 2}. 
-l.183 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.183 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \myvec 
-                   {7 & -8 & 3} \myvec {x \\ y \\ z} = \myvec {7 & -8 & 3}\m...
-l.183 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.183 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \myvec {7 & -8 & 3} \myvec 
-                                       {x \\ y \\ z} = \myvec {7 & -8 & 3}\m...
-l.183 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ... & 3} \myvec {x \\ y \\ z} = \myvec 
-                                                  {7 & -8 & 3}\myvec {-1 \\ ...
-l.183 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ...y \\ z} = \myvec {7 & -8 & 3}\myvec 
-                                                  {-1 \\ 3 \\ 2}. 
-l.183 \end{frame}
-                 
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.183 \end{frame}
-                 
-? 
-! Misplaced \omit.
-\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
-                                                  \kern -\alignsep@ \iftag@ ...
-l.183 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.183 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \myvec 
-                   {7 & -8 & 3} \myvec {x \\ y \\ z} = -25 
-l.183 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.183 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \myvec {7 & -8 & 3} \myvec 
-                                       {x \\ y \\ z} = -25 
-l.183 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.183 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \myvec 
-                   {7 & -8 & 3} \myvec {x \\ y \\ z} = -25 
-l.183 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.183 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \myvec {7 & -8 & 3} \myvec 
-                                       {x \\ y \\ z} = -25 
-l.183 \end{frame}
-                 
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.183 \end{frame}
-                 
-? 
-! Misplaced \omit.
-\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
-                                                  \kern -\alignsep@ \iftag@ ...
-l.183 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.183 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \frac {-1}{25}\myvec 
-                                 {7 & -8 & 3} \myvec {x \\ y \\ z} =1 
-l.183 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.183 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ... {-1}{25}\myvec {7 & -8 & 3} \myvec 
-                                                  {x \\ y \\ z} =1 
-l.183 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.183 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \frac {-1}{25}\myvec 
-                                 {7 & -8 & 3} \myvec {x \\ y \\ z} =1 
-l.183 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.183 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument> ... {-1}{25}\myvec {7 & -8 & 3} \myvec 
-                                                  {x \\ y \\ z} =1 
-l.183 \end{frame}
-                 
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.183 \end{frame}
-                 
-? 
-! Misplaced \omit.
-\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
-                                                  \kern -\alignsep@ \iftag@ ...
-l.183 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.183 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \vec {n}=\frac {-1}{25}\myvec 
-                                          {7 \\ -8 \\ 3} 
-l.183 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.183 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.183 \end{frame}
-                 
-? 
-! Undefined control sequence.
-<argument>  \vec {n}=\frac {-1}{25}\myvec 
-                                          {7 \\ -8 \\ 3} 
-l.183 \end{frame}
-                 
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.183 \end{frame}
-                 
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.183 \end{frame}
-                 
-? 
-! Misplaced \omit.
-\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
-                                                  \kern -\alignsep@ \iftag@ ...
-l.183 \end{frame}
-                 
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.183 \end{frame}
-                 
-? 
-
-Overfull \vbox (101.64362pt too high) detected at line 183
- []
-
-
 
 [6
 
 ]
-<figs/plot8.png, id=202, 722.7pt x 505.89pt>
-File: figs/plot8.png Graphic file (type png)
-<use figs/plot8.png>
-Package pdftex.def Info: figs/plot8.png  used on input line 192.
-(pdftex.def)             Requested size: 342.2953pt x 239.6055pt.
-
-Overfull \vbox (48.07918pt too high) detected at line 192
- []
-
-
 
 [7
 
- <./figs/plot8.png>]
-\openout4 = `main.vrb'.
+]
+<../figs/plot8.png, id=93, 722.7pt x 505.89pt>
+File: ../figs/plot8.png Graphic file (type png)
+<use ../figs/plot8.png>
+Package pdftex.def Info: ../figs/plot8.png  used on input line 147.
+(pdftex.def)             Requested size: 308.06367pt x 215.64496pt.
 
- (./main.vrb
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-2.
- (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
-File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-))
+Overfull \vbox (13.03847pt too high) detected at line 147
+ []
+
+
 
 [8
 
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}]
-\openout4 = `main.vrb'.
+ <../figs/plot8.png>]
+\tf@nav=\write6
+\openout6 = `main.nav'.
 
- (./main.vrb
-Overfull \hbox (111.85464pt too wide) in paragraph at lines 13--13
-[]  \OT1/lmtt/m/n/10.95 printf("\nEquation of required plane: %.2lf*x + %.2lf*y
- + %.2lf*z = %.2lf\n",[] 
- []
+\tf@toc=\write7
+\openout7 = `main.toc'.
 
-)
-
-[9
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-Overfull \vbox (9.12935pt too high) detected at line 251
- []
-
-
-
-[10
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb
-Overfull \hbox (19.87491pt too wide) in paragraph at lines 5--5
-[]    \OT1/lmtt/m/n/10.95 cross_product(n1x, n1y, n1z, n2x, n2y, n2z, &nx, &ny,
- &nz);[] 
- []
-
-)
-
-[11
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb
-Overfull \hbox (88.85971pt too wide) in paragraph at lines 14--14
-[]    \OT1/lmtt/m/n/10.95 """Given normal vector and point, return plane equati
-on coefficients"""[] 
- []
-
-)
-
-[12
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb
-Overfull \hbox (60.11604pt too wide) in paragraph at lines 5--5
-[]    \OT1/lmtt/m/n/10.95 x0, y0, z0 = map(float, input("Enter point (x0 y0 z0)
-: ").split())[] 
- []
-
-
-Overfull \hbox (198.08565pt too wide) in paragraph at lines 8--8
-[]    \OT1/lmtt/m/n/10.95 a1, b1, c1, d1 = map(float, input("Enter coefficients
- of plane1 (a1 b1 c1 d1): ").split())[] 
- []
-
-
-Overfull \hbox (198.08565pt too wide) in paragraph at lines 11--11
-[]    \OT1/lmtt/m/n/10.95 a2, b2, c2, d2 = map(float, input("Enter coefficients
- of plane2 (a2 b2 c2 d2): ").split())[] 
- []
-
-)
-Overfull \vbox (9.12935pt too high) detected at line 305
- []
-
-
-
-[13
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb
-LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
-6.
- (/usr/share/texmf/tex/latex/lm/ts1lmtt.fd
-File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-))
-
-[14
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
-\openout4 = `main.vrb'.
-
- (./main.vrb
-Overfull \hbox (238.32678pt too wide) in paragraph at lines 11--11
-[]    \OT1/lmtt/m/n/10.95 ctypes.POINTER(ctypes.c_double), ctypes.POINTER(ctype
-s.c_double), ctypes.POINTER(ctypes.c_double)[] 
- []
-
-)
-Overfull \vbox (9.12935pt too high) detected at line 342
- []
-
-
-
-[15
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb
-Overfull \hbox (60.11604pt too wide) in paragraph at lines 13--13
-[]    \OT1/lmtt/m/n/10.95 x0, y0, z0 = map(float, input("Enter point (x0 y0 z0)
-: ").split())[] 
- []
-
-
-Overfull \hbox (198.08565pt too wide) in paragraph at lines 14--14
-[]    \OT1/lmtt/m/n/10.95 a1, b1, c1, d1 = map(float, input("Enter coefficients
- of plane1 (a1 b1 c1 d1): ").split())[] 
- []
-
-
-Overfull \hbox (198.08565pt too wide) in paragraph at lines 15--15
-[]    \OT1/lmtt/m/n/10.95 a2, b2, c2, d2 = map(float, input("Enter coefficients
- of plane2 (a2 b2 c2 d2): ").split())[] 
- []
-
-)
-
-[16
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-
-[17
-
-]
-\tf@nav=\write7
-\openout7 = `main.nav'.
-
-\tf@toc=\write8
-\openout8 = `main.toc'.
-
-\tf@snm=\write9
-\openout9 = `main.snm'.
-
-runsystem(latexminted cleantemp  --timestamp 20251005022756 FAD58DE7366495DB465
-0CFEFAC2FCD61)...executed safely (allowed).
+\tf@snm=\write8
+\openout8 = `main.snm'.
 
  (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2020/03/25>
+L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 0638186488DE59A253C3A2927AF856C5;689.
  ) 
 Here is how much of TeX's memory you used:
- 58606 strings out of 473197
- 1429427 string characters out of 5718605
- 2347068 words of memory out of 5000000
- 80834 multiletter control sequences out of 15000+600000
- 592048 words of font info for 74 fonts, out of 8000000 for 9000
+ 26808 strings out of 473197
+ 507805 string characters out of 5718605
+ 877664 words of memory out of 5000000
+ 49507 multiletter control sequences out of 15000+600000
+ 566774 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,123p,1172b,587s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb>
-Output written on main.pdf (17 pages, 332649 bytes).
+ 128i,19n,131p,398b,664s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (8 pages, 267176 bytes).
 PDF statistics:
- 575 PDF objects out of 1000 (max. 8388607)
- 488 compressed objects within 5 object streams
- 36 named destinations out of 1000 (max. 500000)
- 84 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 

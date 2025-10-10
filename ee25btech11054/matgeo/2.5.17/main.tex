@@ -93,7 +93,7 @@ This gives the linear system
 
 Step 1: Augmented matrix
 \begin{align}
-\myvec{
+\augvec{3}{1}{
 1 & -7 & 7 & 0\\
 3 & -2 & 2 & 0
 }. \label{eq:aug}
@@ -102,17 +102,17 @@ Step 1: Augmented matrix
 Step 2: Row operations
 \begin{align}
 R_2 &\to R_2 - 3R_1: 
-\myvec{
+\augvec{3}{1}{
 1 & -7 & 7 & 0\\
 0 & 19 & -19 & 0
 }, \label{eq:row1}\\[6pt]
 R_2 &\to \tfrac{1}{19}R_2: 
-\myvec{
+\augvec{3}{1}{
 1 & -7 & 7 & 0\\
 0 & 1 & -1 & 0
 }, \label{eq:row2}\\[6pt]
 R_1 &\to R_1 + 7R_2: 
-\myvec{
+\augvec{3}{1}{
 1 & 0 & 0 & 0\\
 0 & 1 & -1 & 0
 }. \label{eq:row3}
@@ -137,7 +137,7 @@ Since
 \end{align}
 the unit vectors are
 \begin{align}
-\hat{n} &= \pm \frac{1}{\sqrt{2}}\myvec{0\\1\\1} \label{eq:unit1}\\
+\vec{\hat{n}} &= \pm \frac{1}{\sqrt{2}}\myvec{0\\1\\1} \label{eq:unit1}\\
 &= \pm \frac{1}{\sqrt{2}}(\hat{j}+\hat{k}). \label{eq:unit2}
 \end{align}
 

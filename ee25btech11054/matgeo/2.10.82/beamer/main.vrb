@@ -1,0 +1,4 @@
+\frametitle{Problem Statement}
+Let $\vec{u}$, $\vec{v}$, and $\vec{w}$ be vectors in three-dimensional space, where $\vec{u}$ and $\vec{v}$ are unit vectors which are not perpendicular to each other and
+$$ \vec{u}\cdot\vec{w} = 1, \quad \vec{v}\cdot\vec{w} = 1, \quad \vec{u}\cdot\vec{v} = 4. $$
+If the volume of the parallelepiped, whose adjacent sides are represented by the vectors $\vec{u}$, $\vec{v}$, and $\vec{w}$, is $\sqrt{2}$, then the value of $|3\vec{u} + 5\vec{v}|$ is \_\_\_\_\_\_\_. (2021)

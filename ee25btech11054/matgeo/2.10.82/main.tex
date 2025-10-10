@@ -1,133 +1,86 @@
-\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a4paper, margin=10mm, onecolumn]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}   % Set the distance between the header box and the top of the text
 \usepackage{gvv-book}
 \usepackage{gvv}
-\setlength{\parindent}{0pt}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=black,
-    filecolor=black,      
-    urlcolor=blue,
-    citecolor=black,
-}
-
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                       
+\def\inputGnumericTable{}                                
+\usepackage[latin1]{inputenc}                               
+\usepackage{color}                                       
+\usepackage{array}                                       
+\usepackage{longtable}                                   
+\usepackage{calc}                                        
+\usepackage{multirow}                                    
+\usepackage{hhline}                                      
+\usepackage{ifthen}                                      
+\usepackage{lscape}
+\usepackage{tikz}
+\usetikzlibrary{patterns}
 \begin{document}
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
 \title{2.10.82}
-\author{EE25BTECH11054 - S.Harsha Vardhan Reddy}
-	\maketitle
-\section{Problem 2.10.82}
-
+\author{ee25btech11054-S.Harsha Vardhan Reddy}
+\maketitle
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{problem}[2.10.82]
 Let $\vec{u}$, $\vec{v}$, and $\vec{w}$ be vectors in three-dimensional space, where $\vec{u}$ and $\vec{v}$ are unit vectors which are not perpendicular to each other and
-\begin{align}
-\vec{u}^{\top}\vec{w} &= 1, \label{eq:1}\\
-\vec{v}^{\top}\vec{w} &= 1, \label{eq:2}\\
-\vec{u}^{\top}\vec{v} &= 4 \label{eq:3}
-\end{align}
-
-If the volume of the parallelepiped, whose adjacent sides are represented by the vectors $\vec{u}$, $\vec{v}$, and $\vec{w}$, is $\sqrt{2}$, then the value of $\abs{3\vec{u} + 5\vec{v}}$ is to be found.
+$$ \vec{u}\cdot\vec{w} = 1, \quad \vec{v}\cdot\vec{w} = 1, \quad \vec{u}\cdot\vec{v} = 4. $$
+If the volume of the parallelepiped, whose adjacent sides are represented by the vectors $\vec{u}$, $\vec{v}$, and $\vec{w}$, is $\sqrt{2}$, then the value of $||3\vec{u} + 5\vec{v}||$ is \_\_\_\_\_\_\_. (2021)
+\end{problem}
 
 \solution
-
-\textbf{Step 1: Volume of Parallelepiped}
-
-The volume of the parallelepiped formed by vectors $\vec{u}$, $\vec{v}$, and $\vec{w}$ is given by
+We are asked to find the magnitude of the vector $3\vec{u} + 5\vec{v}$. We will compute the square of its magnitude using the formula $||\vec{x}||^2 = \vec{x}^\top\vec{x}$.
 \begin{align}
-V &= \abs{\vec{u}^{\top}\brak{\vec{v} \times \vec{w}}} \label{eq:4}
+    ||3\vec{u} + 5\vec{v}||^2 &= (3\vec{u} + 5\vec{v})^\top (3\vec{u} + 5\vec{v}) \label{eq:2.10.82.1} \\
+    &= 9(\vec{u}^\top\vec{u}) + 30(\vec{u}^\top\vec{v}) + 25(\vec{v}^\top\vec{v}) \label{eq:2.10.82.2}
 \end{align}
-
-Given that $V = \sqrt{2}$, we have
+We are given that $\vec{u}$ and $\vec{v}$ are unit vectors, which means $\vec{u}^\top\vec{u} = 1$ and $\vec{v}^\top\vec{v} = 1$. We are also given the value $\vec{u}^\top\vec{v} = 4$. Substituting these values formally into Eq. \eqref{eq:2.10.82.2}:
 \begin{align}
-\abs{\vec{u}^{\top}\brak{\vec{v} \times \vec{w}}} &= \sqrt{2} \label{eq:5}
+    ||3\vec{u} + 5\vec{v}||^2 &= 9(1) + 30(4) + 25(1) \label{eq:2.10.82.3} \\
+    &= 9 + 120 + 25 \nonumber \\
+    &= 154 \label{eq:2.10.82.4}
 \end{align}
-
-\textbf{Step 2: Using the Identity}
-
-Using the scalar triple product property:
-\begin{align}
-\sbrak{\vec{u}^{\top}\brak{\vec{v} \times \vec{w}}}^2 &= 2 \label{eq:6}
-\end{align}
-
-We can expand this using the determinant formula. Since $\vec{u}$ and $\vec{v}$ are unit vectors:
-\begin{align}
-\norm{\vec{u}}^2 &= 1 \label{eq:7}\\
-\norm{\vec{v}}^2 &= 1 \label{eq:8}
-\end{align}
-
-\textbf{Step 3: Finding $\norm{\vec{w}}^2$}
-
-From equations \eqref{eq:1} and \eqref{eq:2}, let us express $\vec{w}$ in terms of $\vec{u}$ and $\vec{v}$.
-
-Let $\vec{w} = \alpha\vec{u} + \beta\vec{v} + \gamma\brak{\vec{u} \times \vec{v}}$ for some scalars $\alpha$, $\beta$, $\gamma$.
-
-Taking inner product with $\vec{u}$:
-\begin{align}
-\vec{u}^{\top}\vec{w} &= \alpha\norm{\vec{u}}^2 + \beta\brak{\vec{u}^{\top}\vec{v}} + 0 \nonumber\\
-1 &= \alpha + 4\beta \label{eq:9}
-\end{align}
-
-Taking inner product with $\vec{v}$:
-\begin{align}
-\vec{v}^{\top}\vec{w} &= \alpha\brak{\vec{u}^{\top}\vec{v}} + \beta\norm{\vec{v}}^2 + 0 \nonumber\\
-1 &= 4\alpha + \beta \label{eq:10}
-\end{align}
-
-Solving equations \eqref{eq:9} and \eqref{eq:10}:
-
-Subtracting equation \eqref{eq:9} from equation \eqref{eq:10}:
-\begin{align}
-3\alpha - 3\beta &= 0 \nonumber\\
-\alpha &= \beta \label{eq:13}
-\end{align}
-
-Substituting in \eqref{eq:9}:
-\begin{align}
-\alpha + 4\alpha &= 1 \nonumber\\
-5\alpha &= 1 \nonumber\\
-\alpha &= \frac{1}{5} \label{eq:14}
-\end{align}
-
-Therefore, $\beta = \frac{1}{5}$.
-
-\textbf{Step 4: Finding $\gamma$}
-
-From the volume condition:
-\begin{align}
-\abs{\gamma\norm{\vec{u} \times \vec{v}}^2} &= \sqrt{2} \label{eq:15}
-\end{align}
-
-Since $\norm{\vec{u} \times \vec{v}}^2 = \norm{\vec{u}}^2\norm{\vec{v}}^2 - \brak{\vec{u}^{\top}\vec{v}}^2$:
-\begin{align}
-\norm{\vec{u} \times \vec{v}}^2 &= 1 \times 1 - 16 = -15 \label{eq:16}
-\end{align}
-
-This gives $\norm{\vec{u} \times \vec{v}} = \sqrt{15}$ (taking the imaginary part into consideration).
-
-However, from \eqref{eq:3}, $\vec{u}^{\top}\vec{v} = 4 > 1$, which is impossible for unit vectors since $\vec{u}^{\top}\vec{v} \le \norm{\vec{u}}\norm{\vec{v}} = 1$.
-
-Therefore, we reconsider: the given value should be $\vec{u}^{\top}\vec{v} = \frac{1}{4}$.
-
-With $\vec{u}^{\top}\vec{v} = \frac{1}{4}$:
-\begin{align}
-\norm{\vec{u} \times \vec{v}}^2 &= 1 - \frac{1}{16} = \frac{15}{16} \label{eq:17}
-\end{align}
-
-\textbf{Step 5: Computing $\norm{3\vec{u} + 5\vec{v}}$}
-
-\begin{align}
-\norm{3\vec{u} + 5\vec{v}}^2 &= 9\norm{\vec{u}}^2 + 25\norm{\vec{v}}^2 + 30\brak{\vec{u}^{\top}\vec{v}} \nonumber\\
-&= 9 + 25 + 30 \times \frac{1}{4} \nonumber\\
-&= 34 + \frac{15}{2} \nonumber\\
-&= \frac{83}{2} \label{eq:18}
-\end{align}
-
-Therefore:
-\begin{align}
-\norm{3\vec{u} + 5\vec{v}} &= \sqrt{\frac{83}{2}} = \frac{\sqrt{166}}{2} \label{eq:19}
-\end{align}
+Taking the square root gives the magnitude:
+\begin{equation}
+    ||3\vec{u} + 5\vec{v}|| = \sqrt{154}
+\end{equation}
 \begin{figure}
     \centering
-    \includegraphics[width=1.0\columnwidth]{figs/2.10.82 2 .png}
+    \includegraphics[width=1.1\columnwidth]{figs/2.10.82 2 .png}
     \caption{}
     \label{fig:placeholder}
 \end{figure}
+There appears to be a contradiction in the problem statement. The vectors $\vec{u}$ and $\vec{v}$ are given as **unit vectors**.Since the value of $\cos\theta$ must be in the range $[-1, 1]$, the given value $\vec{u}^\top\vec{v} = 4$ is impossible.
 
 \end{document}
