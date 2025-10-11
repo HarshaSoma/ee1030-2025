@@ -1,0 +1,20 @@
+import numpy as np
+
+A = np.array([[1, -3], [1, -2]])
+b = np.array([0, 15])
+
+try:
+    solution = np.linalg.solve(A, b)
+    fathers_age = solution[0]
+    sum_of_childrens_ages = solution[1]
+    
+    print("--- Verification using NumPy ---")
+    print(f"Father's present age: {fathers_age:.0f}")
+    print(f"Sum of children's present ages: {sum_of_childrens_ages:.0f}")
+
+    assert abs(fathers_age - 45) < 1e-9
+    assert abs(sum_of_childrens_ages - 15) < 1e-9
+    print("\nResult is correct.")
+
+except np.linalg.LinAlgError:
+    print("The matrix is singular. NumPy could not find a unique solution.")

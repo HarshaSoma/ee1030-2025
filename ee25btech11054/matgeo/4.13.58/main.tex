@@ -1,0 +1,156 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a4paper, margin=10mm, onecolumn]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}   % Set the distance between the header box and the top of the text
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                       
+\def\inputGnumericTable{}                                
+\usepackage[latin1]{inputenc}                               
+\usepackage{color}                                       
+\usepackage{array}                                       
+\usepackage{longtable}                                   
+\usepackage{calc}                                        
+\usepackage{multirow}                                    
+\usepackage{hhline}                                      
+\usepackage{ifthen}                                      
+\usepackage{lscape}
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+\begin{document}
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{4.13.58}
+\author{ee25btech11054-S.Harsha \vec{V}ardhan Reddy}
+\maketitle
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+\textbf{Question 4.13.58}
+Show that all chords of the curve $3x^2 - y^2 - 2x + 4y = 0$, which subtend a right angle at the origin, pass through a fixed point. Find the coordinates of the point.
+
+\solution
+The equation of the given curve is
+$3x^2 - y^2 - 2x + 4y = 0 $\\
+Let $\vec{x} = \myvec{x \\ y}$.\\
+The equation of the curve can be written in the matrix form $\vec{x}^\top {\vec{V}}\vec{x} + 2\vec{u}^\top\vec{x} + f = 0$ as
+\begin{align}
+\vec{x}^\top \myvec{3 & 0 \\ 0 & -1} \vec{x} + 2\myvec{-1 \\ 2}^\top\vec{x} + 0 = 0.
+\end{align}
+Here, the matrix of the quadratic part is 
+\begin{align}
+\vec{V} = \myvec{3 & 0 \\ 0 & -1}
+\end{align}, 
+the vector for the linear part is 
+\begin{align}
+\vec{u} = \myvec{-1 \\ 2}
+\end{align}
+and the constant term is $f=0$.
+
+Let the equation of a chord PQ of the curve be $lx + my = 1 $.\\
+In vector form, this is:
+\begin{align}
+\vec{n}^\top\vec{x} = 1,\\
+\text{where } \vec{n} = \myvec{l \\ m}
+\end{align}
+The combined equation of the pair of lines joining the origin to the points of intersection, P and Q, is obtained by homogenizing equation (0.1) using equation (0.4).
+\begin{align}
+\vec{x}^\top {\vec{V}}\vec{x} + 2(\vec{u}^\top\vec{x})(1) = 0 
+\end{align}
+Substituting $\vec{n}^\top\vec{x}$ for $1$:
+\begin{align}
+\vec{x}^\top {\vec{V}}\vec{x} + 2(\vec{u}^\top\vec{x})(\vec{n}^\top\vec{x}) = 0 
+\end{align}
+This can be written as a single quadratic form:
+\begin{align}
+\vec{x}^\top {\vec{V}}\vec{x} + \vec{x}^\top(\vec{u}\vec{n}^\top + \vec{n}\vec{u}^\top)\vec{x} = 0\\
+\vec{x}^\top( {\vec{V}} + \vec{u}\vec{n}^\top + \vec{n}\vec{u}^\top)\vec{x} = 0
+\end{align}
+This is the equation of the pair of lines OP and OQ. Let 
+\begin{align}
+{W} =  {\vec{V}} + \vec{u}\vec{n}^\top + \vec{n}\vec{u}^\top.
+\end{align}
+The lines represented by the homogeneous quadratic equation $\vec{x}^\top {W}\vec{x} = 0$ are perpendicular if and only if the trace of the matrix $ {W}$ is zero.
+$\text{trace}( {W}) = 0 $
+Using the property 
+\begin{align}
+\text{trace}( {A}+ {B}) = \text{trace}( {A}) + \text{trace}( {B})
+\text{trace}(\vec{a}\vec{b}^\top) = \vec{b}^\top\vec{a}\\
+\text{trace}( {W}) = \text{trace}( {\vec{V}}) + \text{trace}(\vec{u}\vec{n}^\top) + \text{trace}(\vec{n}\vec{u}^\top) \\
+\text{trace}( {W}) = \text{trace}( {\vec{V}}) + \vec{n}^\top\vec{u} + \vec{u}^\top\vec{n} = \text{trace}( {\vec{V}}) + 2\vec{u}^\top\vec{n} 
+\end{align}
+
+The condition for the chord to subtend a right angle at the origin is 
+\begin{align}
+\text{trace}( {\vec{V}}) + 2\vec{u}^\top\vec{n} = 0 
+\end{align}
+From the problem statement:
+\begin{align}
+ {\vec{V}} = \myvec{3 & 0 \\ 0 & -1}\\
+\implies \text{trace}( {\vec{V}}) = 3 + (-1) = 2 \\
+\vec{u} = \myvec{-1 \\ 2} \\
+\vec{n} = \myvec{l \\ m} 
+\end{align}
+Substituting these values into equation (0.17)
+\begin{align}
+2 + 2\myvec{-1 & 2}\myvec{l \\ m} = 0\\
+2 + 2(-l + 2m) = 0\\
+1 - l + 2m = 0 \\
+l - 2m = 1 
+\end{align}
+This is the condition that the coefficients of the chord $lx+my=1$ must satisfy.
+We want to show that this line passes through a fixed point $(x_0, y_0)$. If it does, then the coordinates of this point must satisfy the equation of the line for any $l$ and $m$ that satisfy condition (0.23).
+\begin{align}
+lx_0 + my_0 = 1
+\end{align}
+From condition (0.14), we express $l$ in terms of $m$: $l = 1 + 2m$. Substituting this into equation (0.24):
+\begin{align}
+(1 + 2m)x_0 + my_0 = 1 \\
+x_0 + 2mx_0 + my_0 = 1 \\
+(x_0 - 1) + m(2x_0 + y_0) = 0
+\end{align}
+Since this equation must hold for all possible values of $m$ (which corresponds to all possible chords subtending a right angle), the coefficients of the powers of $m$ must be individually zero.
+\begin{align}
+x_0 - 1 = 0\\
+\implies x_0 = 1 \\
+2x_0 + y_0 = 0 \\
+\implies 2(1) + y_0 = 0\\
+\implies y_0 = -2 
+\end{align}
+Therefore, all such chords pass through the fixed point with coordinates $\myvec{1\\-2}$.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1.1\linewidth]{figs/Figure_2.png}
+    \caption{}
+    \label{fig:placeholder}
+\end{figure}
+
+\end{document}

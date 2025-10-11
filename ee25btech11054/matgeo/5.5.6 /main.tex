@@ -1,0 +1,98 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{tfrupee}
+
+\setlength{\headheight}{1cm}
+\setlength{\headsep}{0mm}
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\def\inputGnumericTable{}
+\usepackage[latin1]{inputenc}
+\usepackage{color}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{calc}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{ifthen}
+\usepackage{lscape}
+
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+
+\title{5.5.6}
+\author{EE25BTECH11054 - S.Harsha Vardhan Reddy}
+\maketitle
+\vspace{-1cm}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt}
+
+\numberwithin{align}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+\textbf{Question:} \\
+For $\vec{A} = \myvec{3 & 1 \\ -1 & 2}$, then $14\vec{A}^{-1}$ is given by
+
+\textbf{Solution:}
+
+Given
+\begin{align}
+\vec{A} = \myvec{3 & 1 \\ -1 & 2}
+\end{align}
+
+Let $\vec{A}^{-1}$ be the inverse of $\vec{A}$. Then
+\begin{align}
+\vec{A}\vec{A}^{-1} = \vec{I}
+\end{align}
+
+Augmented matrix of $\augvec{1}{1}{\vec{A} & \vec{I}}$ is given by
+\begin{align}
+\augvec{2}{2}{3 & 1 & 1 & 0 \\ -1 & 2 & 0 & 1}
+\end{align}
+
+Applying elementary row transformations:
+\begin{align}
+&\augvec{2}{2}{3 & 1 & 1 & 0 \\ -1 & 2 & 0 & 1} \xrightarrow{R_2 \rightarrow 3R_2 + R_1} \augvec{2}{2}{3 & 1 & 1 & 0 \\ 0 & 7 & 1 & 3}
+\end{align}
+
+\begin{align}
+&\xrightarrow{R_1 \rightarrow 7R_1 - R_2} \augvec{2}{2}{21 & 0 & 6 & -3 \\ 0 & 7 & 1 & 3}
+\end{align}
+
+\begin{align}
+&\xrightarrow{R_1 \rightarrow \frac{1}{21}R_1, R_2 \rightarrow \frac{1}{7}R_2} \augvec{2}{2}{1 & 0 & \frac{2}{7} & -\frac{1}{7} \\ 0 & 1 & \frac{1}{7} & \frac{3}{7}}
+\end{align}
+
+Hence the inverse of matrix $\vec{A}$ is
+\begin{align}
+\vec{A}^{-1} = \myvec{\frac{2}{7} & -\frac{1}{7} \\ \frac{1}{7} & \frac{3}{7}}
+\end{align}
+
+Therefore, $14\vec{A}^{-1}$ is given by
+\begin{align}
+14\vec{A}^{-1} = 14 \times \myvec{\frac{2}{7} & -\frac{1}{7} \\ \frac{1}{7} & \frac{3}{7}} = \myvec{4 & -2 \\ 2 & 6}
+\end{align}
+
+\end{document}

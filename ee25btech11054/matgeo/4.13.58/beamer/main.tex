@@ -1,0 +1,251 @@
+\documentclass{beamer}
+
+\mode<presentation>
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{adjustbox}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\setlist{nosep} % optional: removes vertical gaps
+\setlist[enumerate]{label=\arabic*)} % custom numbering if you want
+
+\usepackage{multicol}
+\usepackage{listings}
+\usepackage{url}
+\usepackage{graphicx} % <-- needed for images
+\def\UrlBreaks{\do\/\do-}
+
+\usetheme{Boadilla}
+\usecolortheme{lily}
+\setbeamertemplate{footline}{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=2ex,dp=1ex,right]{author in head/foot}%
+    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex}
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+\setbeamertemplate{navigation symbols}{}
+
+\lstset{
+  frame=single,
+  breaklines=true,
+  columns=fullflexible,
+  basicstyle=\ttfamily\tiny    % tiny font so code fits
+}
+
+\numberwithin{equation}{section}
+
+% ---- your macros ----
+\providecommand{\nCr}[2]{\,^{#1}{#2}}
+\providecommand{\nPr}[2]{\,^{#1}P_{#2}}
+\providecommand{\mbf}{\mathbf}
+\providecommand{\pr}[1]{\ensuremath{\Pr\left(#1\right)}}
+\providecommand{\qfunc}[1]{\ensuremath{Q\left(#1\right)}}
+\providecommand{\sbrak}[1]{\ensuremath{{}\left[#1\right]}}
+\providecommand{\lsbrak}[1]{\ensuremath{{}\left[#1\right.}}
+\providecommand{\rsbrak}[1]{\ensuremath{\left.#1\right]}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\lbrak}[1]{\ensuremath{\left(#1\right.}}
+\providecommand{\rbrak}[1]{\ensuremath{\left.#1\right)}}
+\providecommand{\cbrak}[1]{\ensuremath{\left\{#1\right\}}}
+\providecommand{\lcbrak}[1]{\ensuremath{\left\{#1\right.}}
+\providecommand{\rcbrak}[1]{\ensuremath{\left.#1\right\}}}
+\theoremstyle{remark}
+
+
+\providecommand{\abs}[1]{\left\vert#1\right\vert}
+\providecommand{\res}[1]{\Res\displaylimits_{#1}}
+\providecommand{\norm}[1]{\lVert#1\rVert}
+\providecommand{\mtx}[1]{\mathbf{#1}}
+\providecommand{\mean}[1]{E\left[ #1 \right]}
+\providecommand{\fourier}{\overset{\mathcal{F}}{ \rightleftharpoons}}
+
+\providecommand{\dec}[2]{\ensuremath{\overset{#1}{\underset{#2}{\gtrless}}}}
+
+\usepackage{gvv}
+% ---------------------
+
+\title{Matgeo Presentation - Problem 4.13.58}
+\author{ee25btech11054-S.Harsha Vardhan Reddy}
+
+\begin{document}
+
+%---------------- Title Page ----------------
+\begin{frame}
+  \titlepage
+\end{frame}
+
+%---------------- Problem Statement ----------------
+\begin{frame}{Problem Statement}
+Show that all chords of the curve $3x^2 - y^2 - 2x + 4y = 0$, which subtend a right angle at the origin, pass through a fixed point. Find the coordinates of the point. (1991)
+\end{frame}
+
+%---------------- Solution ----------------
+\begin{frame}{Solution: Matrix Representation}
+The equation of the given curve is
+$3x^2 - y^2 - 2x + 4y = 0 $\\
+Let $\vec{x} = \myvec{x \\ y}$.\\
+The equation of the curve can be written in the matrix form $\vec{x}^\top {V}\vec{x} + 2\vec{u}^\top\vec{x} + f = 0$ as
+\begin{align}
+\vec{x}^\top \myvec{3 & 0 \\ 0 & -1} \vec{x} + 2\myvec{-1 \\ 2}^\top\vec{x} + 0 = 0. \tag{0.1}
+\end{align}
+\end{frame}
+
+\begin{frame}{Solution: Matrix Representation}
+Here, the matrix of the quadratic part is 
+\begin{align}
+V = \myvec{3 & 0 \\ 0 & -1} \tag{0.2}
+\end{align}
+the vector for the linear part is 
+\begin{align}
+\vec{u} = \myvec{-1 \\ 2} \tag{0.3}
+\end{align}
+and the constant term is $f=0$.
+\end{frame}
+
+\begin{frame}{Solution: Homogenization}
+Let the equation of a chord PQ of the curve be $lx + my = 1 $.\\
+In vector form, this is:
+\begin{align}
+\vec{n}^\top\vec{x} = 1, \quad \text{where } \vec{n} = \myvec{l \\ m} \tag{0.4}
+\end{align}
+The combined equation of the pair of lines joining the origin to the points of intersection, P and Q, is obtained by homogenizing equation (0.1) using equation (0.4).
+\begin{align}
+\vec{x}^\top {V}\vec{x} + 2(\vec{u}^\top\vec{x})(1) = 0 \tag{0.5}
+\end{align}
+\end{frame}
+
+\begin{frame}{Solution: Homogenization}
+Substituting $\vec{n}^\top\vec{x}$ for $1$:
+\begin{align}
+\vec{x}^\top {V}\vec{x} + 2(\vec{u}^\top\vec{x})(\vec{n}^\top\vec{x}) = 0 \tag{0.6}
+\end{align}
+This can be written as a single quadratic form:
+\begin{align}
+\vec{x}^\top {V}\vec{x} + \vec{x}^\top(\vec{u}\vec{n}^\top + \vec{n}\vec{u}^\top)\vec{x} = 0 \tag{0.7}
+\end{align}
+\begin{align}
+\vec{x}^\top( {V} + \vec{u}\vec{n}^\top + \vec{n}\vec{u}^\top)\vec{x} = 0 \tag{0.8}
+\end{align}
+\end{frame}
+
+\begin{frame}{Solution: Condition for Perpendicularity}
+This is the equation of the pair of lines OP and OQ. Let 
+\begin{align}
+{W} =  {V} + \vec{u}\vec{n}^\top + \vec{n}\vec{u}^\top. \tag{0.9}
+\end{align}
+The lines represented by the homogeneous quadratic equation $\vec{x}^\top {W}\vec{x} = 0$ are perpendicular if and only if the trace of the matrix $ {W}$ is zero.
+\end{frame}
+
+\begin{frame}{Solution: Condition for Perpendicularity}
+The condition is $\text{trace}( {W}) = 0$.
+Using the property 
+\begin{align}
+\text{trace}( {A}+ {B}) &= \text{trace}( {A}) + \text{trace}( {B}) \tag{0.11} \\
+\text{trace}(\vec{a}\vec{b}^\top) &= \vec{b}^\top\vec{a} \tag{0.12}
+\end{align}
+We have:
+\begin{align}
+\text{trace}( {W}) &= \text{trace}( {V}) + \text{trace}(\vec{u}\vec{n}^\top) + \text{trace}(\vec{n}\vec{u}^\top) \tag{0.13} \\
+\text{trace}( {W}) &= \text{trace}( {V}) + \vec{n}^\top\vec{u} + \vec{u}^\top\vec{n} = \text{trace}( {V}) + 2\vec{u}^\top\vec{n} \tag{0.14}
+\end{align}
+\end{frame}
+
+\begin{frame}{Solution: Condition for Perpendicularity}
+The condition for the chord to subtend a right angle at the origin is 
+\begin{align}
+\text{trace}( {V}) + 2\vec{u}^\top\vec{n} = 0 \tag{0.17}
+\end{align}
+From the problem statement:
+\begin{align}
+ {V} = \myvec{3 & 0 \\ 0 & -1} \tag{0.18}
+\end{align}
+\begin{align}
+\implies \text{trace}( {V}) = 3 + (-1) = 2 \tag{0.19}
+\end{align}
+\end{frame}
+
+\begin{frame}{Solution: Deriving the Condition}
+We also have:
+\begin{align}
+\vec{u} = \myvec{-1 \\ 2} \tag{0.20}
+\end{align}
+\begin{align}
+\vec{n} = \myvec{l \\ m} \tag{0.21}
+\end{align}
+Substituting these values into equation (0.17)
+\begin{align}
+2 + 2\myvec{-1 & 2}\myvec{l \\ m} = 0 \tag{0.22}
+\end{align}
+\end{frame}
+
+\begin{frame}{Solution: Deriving the Condition}
+Simplifying the expression:
+\begin{align}
+2 + 2(-l + 2m) = 0 
+\end{align}
+\begin{align}
+1 - l + 2m = 0 
+\end{align}
+\begin{align}
+l - 2m = 1 \tag{0.23}
+\end{align}
+This is the condition that the coefficients of the chord $lx+my=1$ must satisfy.
+\end{frame}
+
+\begin{frame}{Solution: Finding the Fixed Point}
+We want to show that this line passes through a fixed point $(x_0, y_0)$. If it does, then the coordinates of this point must satisfy the equation of the line for any $l$ and $m$ that satisfy condition (0.23).
+\begin{align}
+lx_0 + my_0 = 1 \tag{0.24}
+\end{align}
+From condition (0.23), we express $l$ in terms of $m$: $l = 1 + 2m$. Substituting this into equation (0.24):
+\begin{align}
+(1 + 2m)x_0 + my_0 = 1 \tag{0.25}
+\end{align}
+\end{frame}
+
+\begin{frame}{Solution: Finding the Fixed Point}
+Expanding the equation:
+\begin{align}
+x_0 + 2mx_0 + my_0 = 1 \tag{0.26}
+\end{align}
+\begin{align}
+(x_0 - 1) + m(2x_0 + y_0) = 0 \tag{0.27}
+\end{align}
+Since this equation must hold for all possible values of $m$, the coefficients must be individually zero.
+\begin{align}
+x_0 - 1 = 0 \tag{0.28}
+\end{align}
+\begin{align}
+\implies x_0 = 1 \tag{0.29}
+\end{align}
+\end{frame}
+
+\begin{frame}{Solution: Finding the Fixed Point}
+And for the second coefficient:
+\begin{align}
+2x_0 + y_0 = 0 \tag{0.30}
+\end{align}
+\begin{align}
+\implies 2(1) + y_0 = 0 
+\end{align}
+\begin{align}
+\implies y_0 = -2 \tag{0.31}
+\end{align}
+Therefore, all such chords pass through the fixed point with coordinates $\myvec{1\\-2}$.
+\end{frame}
+
+\begin{frame}{Plot}
+\begin{figure}
+    \centering
+    \includegraphics[width=\columnwidth]{../figs/Figure_2.png}
+    \caption*{}
+\end{figure}
+\end{frame}
+
+\end{document}
