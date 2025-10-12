@@ -1,0 +1,24 @@
+import numpy as np
+from scipy.integrate import quad
+
+def integrand(y):
+    return np.sqrt(16 - y**2) - y**2 / 6
+
+y_limit = 2 * np.sqrt(3)
+
+common_area, error = quad(integrand, -y_limit, y_limit)
+
+total_circle_area = 16 * np.pi
+required_area = total_circle_area - common_area
+analytical_area = (32 * np.pi - 4 * np.sqrt(3)) / 3
+
+print("="*55)
+print("VERIFICATION USING SCIPY")
+print("="*55)
+print(f"Common Area (SciPy): {common_area:.8f} (Error: {error:.2e})")
+print(f"Required Area (Calculated): {required_area:.8f}")
+print(f"Required Area (Analytical): {analytical_area:.8f}")
+print("="*55)
+
+
+

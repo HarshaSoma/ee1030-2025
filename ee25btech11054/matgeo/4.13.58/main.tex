@@ -46,7 +46,6 @@
 % \maketitle
 % \newpage
 % \bigskip
-{\let\newpage\relax\maketitle}
 \renewcommand{\thefigure}{\theenumi}
 \renewcommand{\thetable}{\theenumi}
 \setlength{\intextsep}{10pt} % Space between text and floats
@@ -99,10 +98,38 @@ This is the equation of the pair of lines OP and OQ. Let
 \end{align}
 The lines represented by the homogeneous quadratic equation $\vec{x}^\top {W}\vec{x} = 0$ are perpendicular if and only if the trace of the matrix $ {W}$ is zero.
 $\text{trace}( {W}) = 0 $
-Using the property 
+
+A homogeneous quadratic equation represents a pair of straight lines passing through the origin. Such an equation can be factored into a product of two linear forms, each representing one of the lines.
+
+\begin{enumerate}
+   \textbf{Factoring the Quadratic Form}: The equation $\vec{x}^\top \mtx{W} \vec{x} = 0$ represents two lines passing through the origin. Let the normal vectors to these lines be $\vec{n}_1$ and $\vec{n}_2$. The equation for the pair of lines can then be written as the product of the individual line equations:
+    \[ (\vec{n}_1^\top \vec{x}) (\vec{n}_2^\top \vec{x}) = 0 \]
+    This product of linear forms corresponds to the quadratic form $\vec{x}^\top \mtx{W} \vec{x} = 0$, where the symmetric matrix $\mtx{W}$ is given by:
+    \[ \mtx{W} = k(\vec{n}_1\vec{n}_2^\top + \vec{n}_2\vec{n}_1^\top) \]
+    for some non-zero scalar constant $k$. We can let $k = 1/2$ for simplicity without loss of generality.
+
+    \textbf{Condition for Perpendicular Lines}: Two lines are \textbf{perpendicular} if and only if their respective normal vectors are orthogonal. The condition for the orthogonality of the normal vectors $\vec{n}_1$ and $\vec{n}_2$ is that their scalar product is zero:
+    \[ \vec{n}_1^\top \vec{n}_2 = 0 \]
+
+    \textbf{Connecting to the Trace}: Now, let's compute the trace of the matrix $\mtx{W}$. Using the properties of the trace operator:
+    \begin{itemize}
+        \item $\text{trace}(\mtx{A} + \mtx{B}) = \text{trace}(\mtx{A}) + \text{trace}(\mtx{B})$
+        \item $\text{trace}(\vec{a}\vec{b}^\top) = \vec{b}^\top\vec{a}$
+    \end{itemize}
+    We have:
+    \begin{align*}
+        \text{trace}(\mtx{W}) &= \text{trace}\left(\frac{1}{2}(\vec{n}_1\vec{n}_2^\top + \vec{n}_2\vec{n}_1^\top)\right) \\
+        &= \frac{1}{2} \left[ \text{trace}(\vec{n}_1\vec{n}_2^\top) + \text{trace}(\vec{n}_2\vec{n}_1^\top) \right] && \text{(by linearity of trace)} \\
+        &= \frac{1}{2} \left( \vec{n}_2^\top\vec{n}_1 + \vec{n}_1^\top\vec{n}_2 \right) && \text{(using the second property)} \\
+        &= \frac{1}{2} (2 \cdot \vec{n}_1^\top\vec{n}_2) && \text{(since scalar product is commutative)} \\
+        &= \vec{n}_1^\top\vec{n}_2
+    \end{align*}
+
+    We have shown that $\text{trace}(\mtx{W})$ is equal to the scalar product $\vec{n}_1^\top\vec{n}_2$. Therefore, the condition for the lines to be perpendicular ($\vec{n}_1^\top\vec{n}_2 = 0$) is equivalent to the condition that the trace of the matrix $\mtx{W}$ is zero.
+    \[ \text{trace}(\mtx{W}) = 0 \iff \vec{n}_1^\top \vec{n}_2 = 0 \]
+\end{enumerate}
+This completes the proof.
 \begin{align}
-\text{trace}( {A}+ {B}) = \text{trace}( {A}) + \text{trace}( {B})
-\text{trace}(\vec{a}\vec{b}^\top) = \vec{b}^\top\vec{a}\\
 \text{trace}( {W}) = \text{trace}( {\vec{V}}) + \text{trace}(\vec{u}\vec{n}^\top) + \text{trace}(\vec{n}\vec{u}^\top) \\
 \text{trace}( {W}) = \text{trace}( {\vec{V}}) + \vec{n}^\top\vec{u} + \vec{u}^\top\vec{n} = \text{trace}( {\vec{V}}) + 2\vec{u}^\top\vec{n} 
 \end{align}
@@ -122,7 +149,6 @@ Substituting these values into equation (0.17)
 \begin{align}
 2 + 2\myvec{-1 & 2}\myvec{l \\ m} = 0\\
 2 + 2(-l + 2m) = 0\\
-1 - l + 2m = 0 \\
 l - 2m = 1 
 \end{align}
 This is the condition that the coefficients of the chord $lx+my=1$ must satisfy.
@@ -133,7 +159,6 @@ lx_0 + my_0 = 1
 From condition (0.14), we express $l$ in terms of $m$: $l = 1 + 2m$. Substituting this into equation (0.24):
 \begin{align}
 (1 + 2m)x_0 + my_0 = 1 \\
-x_0 + 2mx_0 + my_0 = 1 \\
 (x_0 - 1) + m(2x_0 + y_0) = 0
 \end{align}
 Since this equation must hold for all possible values of $m$ (which corresponds to all possible chords subtending a right angle), the coefficients of the powers of $m$ must be individually zero.

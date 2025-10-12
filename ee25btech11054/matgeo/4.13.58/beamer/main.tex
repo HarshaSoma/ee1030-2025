@@ -35,7 +35,7 @@
   frame=single,
   breaklines=true,
   columns=fullflexible,
-  basicstyle=\ttfamily\tiny    % tiny font so code fits
+  basicstyle=\ttfamily\small % Adjusted for better readability
 }
 
 \numberwithin{equation}{section}
@@ -82,24 +82,20 @@
 
 %---------------- Problem Statement ----------------
 \begin{frame}{Problem Statement}
-Show that all chords of the curve $3x^2 - y^2 - 2x + 4y = 0$, which subtend a right angle at the origin, pass through a fixed point. Find the coordinates of the point. (1991)
+\textbf{Question 4.13.58} \\
+Show that all chords of the curve $3x^2 - y^2 - 2x + 4y = 0$, which subtend a right angle at the origin, pass through a fixed point. Find the coordinates of the point.
 \end{frame}
 
 %---------------- Solution ----------------
 \begin{frame}{Solution: Matrix Representation}
-The equation of the given curve is
-$3x^2 - y^2 - 2x + 4y = 0 $\\
-Let $\vec{x} = \myvec{x \\ y}$.\\
-The equation of the curve can be written in the matrix form $\vec{x}^\top {V}\vec{x} + 2\vec{u}^\top\vec{x} + f = 0$ as
+The equation of the given curve is $3x^2 - y^2 - 2x + 4y = 0$. \\
+Let $\vec{x} = \myvec{x \\ y}$. The curve in matrix form $\vec{x}^\top {\vec{V}}\vec{x} + 2\vec{u}^\top\vec{x} + f = 0$ is:
 \begin{align}
 \vec{x}^\top \myvec{3 & 0 \\ 0 & -1} \vec{x} + 2\myvec{-1 \\ 2}^\top\vec{x} + 0 = 0. \tag{0.1}
 \end{align}
-\end{frame}
-
-\begin{frame}{Solution: Matrix Representation}
 Here, the matrix of the quadratic part is 
 \begin{align}
-V = \myvec{3 & 0 \\ 0 & -1} \tag{0.2}
+\vec{V} = \myvec{3 & 0 \\ 0 & -1} \tag{0.2}
 \end{align}
 the vector for the linear part is 
 \begin{align}
@@ -112,140 +108,176 @@ and the constant term is $f=0$.
 Let the equation of a chord PQ of the curve be $lx + my = 1 $.\\
 In vector form, this is:
 \begin{align}
-\vec{n}^\top\vec{x} = 1, \quad \text{where } \vec{n} = \myvec{l \\ m} \tag{0.4}
+\vec{n}^\top\vec{x} = 1, \text{ where } \vec{n} = \myvec{l \\ m} \tag{0.4}
 \end{align}
-The combined equation of the pair of lines joining the origin to the points of intersection, P and Q, is obtained by homogenizing equation (0.1) using equation (0.4).
+The combined equation of the lines from the origin to the intersection points is found by homogenizing equation (0.1) using equation (0.4).
 \begin{align}
-\vec{x}^\top {V}\vec{x} + 2(\vec{u}^\top\vec{x})(1) = 0 \tag{0.5}
+\vec{x}^\top {\vec{V}}\vec{x} + 2(\vec{u}^\top\vec{x})(1) = 0 \tag{0.5}
 \end{align}
-\end{frame}
-
-\begin{frame}{Solution: Homogenization}
 Substituting $\vec{n}^\top\vec{x}$ for $1$:
 \begin{align}
-\vec{x}^\top {V}\vec{x} + 2(\vec{u}^\top\vec{x})(\vec{n}^\top\vec{x}) = 0 \tag{0.6}
+\vec{x}^\top {\vec{V}}\vec{x} + 2(\vec{u}^\top\vec{x})(\vec{n}^\top\vec{x}) = 0 \tag{0.6}
 \end{align}
+\end{frame}
+
+\begin{frame}{Solution: Pair of Lines}
 This can be written as a single quadratic form:
 \begin{align}
-\vec{x}^\top {V}\vec{x} + \vec{x}^\top(\vec{u}\vec{n}^\top + \vec{n}\vec{u}^\top)\vec{x} = 0 \tag{0.7}
+\vec{x}^\top {\vec{V}}\vec{x} + \vec{x}^\top(\vec{u}\vec{n}^\top + \vec{n}\vec{u}^\top)\vec{x} = 0 \tag{0.7}
 \end{align}
 \begin{align}
-\vec{x}^\top( {V} + \vec{u}\vec{n}^\top + \vec{n}\vec{u}^\top)\vec{x} = 0 \tag{0.8}
+\vec{x}^\top( {\vec{V}} + \vec{u}\vec{n}^\top + \vec{n}\vec{u}^\top)\vec{x} = 0 \tag{0.8}
 \end{align}
-\end{frame}
-
-\begin{frame}{Solution: Condition for Perpendicularity}
 This is the equation of the pair of lines OP and OQ. Let 
 \begin{align}
-{W} =  {V} + \vec{u}\vec{n}^\top + \vec{n}\vec{u}^\top. \tag{0.9}
+{W} =  {\vec{V}} + \vec{u}\vec{n}^\top + \vec{n}\vec{u}^\top. \tag{0.9}
 \end{align}
-The lines represented by the homogeneous quadratic equation $\vec{x}^\top {W}\vec{x} = 0$ are perpendicular if and only if the trace of the matrix $ {W}$ is zero.
+The lines are perpendicular if and only if the trace of the matrix ${W}$ is zero.
 \end{frame}
 
-\begin{frame}{Solution: Condition for Perpendicularity}
-The condition is $\text{trace}( {W}) = 0$.
-Using the property 
-\begin{align}
-\text{trace}( {A}+ {B}) &= \text{trace}( {A}) + \text{trace}( {B}) \tag{0.11} \\
-\text{trace}(\vec{a}\vec{b}^\top) &= \vec{b}^\top\vec{a} \tag{0.12}
-\end{align}
-We have:
-\begin{align}
-\text{trace}( {W}) &= \text{trace}( {V}) + \text{trace}(\vec{u}\vec{n}^\top) + \text{trace}(\vec{n}\vec{u}^\top) \tag{0.13} \\
-\text{trace}( {W}) &= \text{trace}( {V}) + \vec{n}^\top\vec{u} + \vec{u}^\top\vec{n} = \text{trace}( {V}) + 2\vec{u}^\top\vec{n} \tag{0.14}
-\end{align}
+\begin{frame}{Justification: Trace and Perpendicularity}
+\begin{enumerate}
+    \item \textbf{Factoring the Quadratic Form}: The equation $\vec{x}^\top \mtx{W} \vec{x} = 0$ represents two lines passing through the origin. If their normal vectors are $\vec{n}_1$ and $\vec{n}_2$, the equation is $(\vec{n}_1^\top \vec{x}) (\vec{n}_2^\top \vec{x}) = 0$. This means $\mtx{W} = k(\vec{n}_1\vec{n}_2^\top + \vec{n}_2\vec{n}_1^\top)$.
+
+    \item \textbf{Condition for Perpendicular Lines}: Two lines are perpendicular if their normal vectors are orthogonal, i.e., $\vec{n}_1^\top \vec{n}_2 = 0$.
+    
+    \item \textbf{Connecting to the Trace}:
+    \begin{align*}
+     \text{trace}(\mtx{W}) &= \text{trace}\left(k(\vec{n}_1\vec{n}_2^\top + \vec{n}_2\vec{n}_1^\top)\right) \\
+     &= k \left( \vec{n}_2^\top\vec{n}_1 + \vec{n}_1^\top\vec{n}_2 \right) = 2k (\vec{n}_1^\top\vec{n}_2)
+    \end{align*}
+    Therefore, $\text{trace}(\mtx{W}) = 0 \iff \vec{n}_1^\top \vec{n}_2 = 0$.
+\end{enumerate}
 \end{frame}
 
-\begin{frame}{Solution: Condition for Perpendicularity}
+\begin{frame}{Solution: Applying the Trace Condition}
+The condition for the lines to be perpendicular is $\text{trace}( {W}) = 0$.
+\begin{align}
+\text{trace}( {W}) &= \text{trace}( {\vec{V}}) + \text{trace}(\vec{u}\vec{n}^\top) + \text{trace}(\vec{n}\vec{u}^\top) \tag{0.13}\\
+\text{trace}( {W}) &= \text{trace}( {\vec{V}}) + \vec{n}^\top\vec{u} + \vec{u}^\top\vec{n} = \text{trace}( {\vec{V}}) + 2\vec{u}^\top\vec{n} \tag{0.14}
+\end{align}
 The condition for the chord to subtend a right angle at the origin is 
 \begin{align}
-\text{trace}( {V}) + 2\vec{u}^\top\vec{n} = 0 \tag{0.17}
+\text{trace}( {\vec{V}}) + 2\vec{u}^\top\vec{n} = 0 \tag{0.17}
 \end{align}
+\end{frame}
+
+\begin{frame}{Solution: Deriving the Condition}
 From the problem statement:
 \begin{align}
- {V} = \myvec{3 & 0 \\ 0 & -1} \tag{0.18}
+ {\vec{V}} &= \myvec{3 & 0 \\ 0 & -1} \implies \text{trace}( {\vec{V}}) = 3 + (-1) = 2 \tag{0.18} \\
+\vec{u} &= \myvec{-1 \\ 2} \tag{0.20} \\
+\vec{n} &= \myvec{l \\ m} \tag{0.21}
 \end{align}
+Substituting these values into equation (0.17):
 \begin{align}
-\implies \text{trace}( {V}) = 3 + (-1) = 2 \tag{0.19}
-\end{align}
-\end{frame}
-
-\begin{frame}{Solution: Deriving the Condition}
-We also have:
-\begin{align}
-\vec{u} = \myvec{-1 \\ 2} \tag{0.20}
-\end{align}
-\begin{align}
-\vec{n} = \myvec{l \\ m} \tag{0.21}
-\end{align}
-Substituting these values into equation (0.17)
-\begin{align}
-2 + 2\myvec{-1 & 2}\myvec{l \\ m} = 0 \tag{0.22}
-\end{align}
-\end{frame}
-
-\begin{frame}{Solution: Deriving the Condition}
-Simplifying the expression:
-\begin{align}
-2 + 2(-l + 2m) = 0 
-\end{align}
-\begin{align}
-1 - l + 2m = 0 
-\end{align}
-\begin{align}
+2 + 2\myvec{-1 & 2}\myvec{l \\ m} = 0 \tag{0.22}\\
+2 + 2(-l + 2m) = 0 \\
 l - 2m = 1 \tag{0.23}
 \end{align}
-This is the condition that the coefficients of the chord $lx+my=1$ must satisfy.
 \end{frame}
 
 \begin{frame}{Solution: Finding the Fixed Point}
-We want to show that this line passes through a fixed point $(x_0, y_0)$. If it does, then the coordinates of this point must satisfy the equation of the line for any $l$ and $m$ that satisfy condition (0.23).
+This is the condition on the coefficients of the chord $lx+my=1$. We want to show this line passes through a fixed point $(x_0, y_0)$.
 \begin{align}
 lx_0 + my_0 = 1 \tag{0.24}
 \end{align}
-From condition (0.23), we express $l$ in terms of $m$: $l = 1 + 2m$. Substituting this into equation (0.24):
+From (0.23), $l = 1 + 2m$. Substituting this into (0.24):
 \begin{align}
-(1 + 2m)x_0 + my_0 = 1 \tag{0.25}
-\end{align}
-\end{frame}
-
-\begin{frame}{Solution: Finding the Fixed Point}
-Expanding the equation:
-\begin{align}
-x_0 + 2mx_0 + my_0 = 1 \tag{0.26}
-\end{align}
-\begin{align}
+(1 + 2m)x_0 + my_0 = 1 \tag{0.25} \\
 (x_0 - 1) + m(2x_0 + y_0) = 0 \tag{0.27}
 \end{align}
-Since this equation must hold for all possible values of $m$, the coefficients must be individually zero.
+This must hold for all $m$, so the coefficients must be zero.
 \begin{align}
-x_0 - 1 = 0 \tag{0.28}
+x_0 - 1 = 0 \implies x_0 = 1 \tag{0.28} \\
+2x_0 + y_0 = 0 \implies 2(1) + y_0 = 0 \implies y_0 = -2 \tag{0.30}
 \end{align}
-\begin{align}
-\implies x_0 = 1 \tag{0.29}
-\end{align}
+Therefore, all such chords pass through the fixed point $\myvec{1\\-2}$.
 \end{frame}
 
-\begin{frame}{Solution: Finding the Fixed Point}
-And for the second coefficient:
-\begin{align}
-2x_0 + y_0 = 0 \tag{0.30}
-\end{align}
-\begin{align}
-\implies 2(1) + y_0 = 0 
-\end{align}
-\begin{align}
-\implies y_0 = -2 \tag{0.31}
-\end{align}
-Therefore, all such chords pass through the fixed point with coordinates $\myvec{1\\-2}$.
-\end{frame}
 
 \begin{frame}{Plot}
-\begin{figure}
+    \begin{figure}[h]
     \centering
-    \includegraphics[width=\columnwidth]{../figs/Figure_2.png}
+    \includegraphics[width=0.8\columnwidth]{../figs/Figure_2.png}
     \caption*{}
-\end{figure}
+    \label{fig:placeholder}
+    \end{figure}
+\end{frame}
+
+\section{C Code}
+\begin{frame}[fragile]{C Code: solver.c}
+\begin{lstlisting}[language=C]
+#include <math.h>
+#include <stdio.h>
+
+int find_intersections(double l, double m, double* out_points) {
+    double a, b, c;
+
+    if (fabs(m) < 1e-9) { // Vertical line case
+        double x = 1.0 / l;
+        a = 1.0; b = -4.0; c = -(3.0/(l*l) - 2.0/l);
+        double disc = b*b - 4*a*c;
+        if (disc < 0) return -1;
+        out_points[0] = x; out_points[2] = x;
+        out_points[1] = (-b + sqrt(disc)) / (2*a);
+        out_points[3] = (-b - sqrt(disc)) / (2*a);
+        return 0;
+    }
+
+    a = 3 * m * m - l * l;
+    b = 2 * l - 2 * m * m - 4 * l * m;
+    c = 4 * m - 1;
+
+    double discriminant = b * b - 4 * a * c;
+    if (discriminant < 0) return -1;
+
+    double sqrt_disc = sqrt(discriminant);
+    out_points[0] = (-b + sqrt_disc) / (2 * a); // x1
+    out_points[2] = (-b - sqrt_disc) / (2 * a); // x2
+    out_points[1] = (1 - l * out_points[0]) / m; // y1
+    out_points[3] = (1 - l * out_points[2]) / m; // y2
+    return 0;
+}
+\end{lstlisting}
+\end{frame}
+
+\section{Python Code}
+\begin{frame}[fragile]{Python Code: visualizer.py}
+\begin{lstlisting}[language=Python]
+import ctypes, os
+import numpy as np
+import matplotlib.pyplot as plt
+
+lib_name = "./libsolver.so" # Adapt for Windows/macOS if needed
+c_lib = ctypes.CDLL(lib_name)
+c_lib.find_intersections.argtypes = [ctypes.c_double, ctypes.c_double, ctypes.POINTER(ctypes.c_double)]
+c_lib.find_intersections.restype = ctypes.c_int
+
+fig, ax = plt.subplots(figsize=(10, 8))
+x = np.linspace(-5, 7, 400); y = np.linspace(-6, 6, 400)
+X, Y = np.meshgrid(x, y)
+curve_eq = 3*X**2 - Y**2 - 2*X + 4*Y
+ax.contour(X, Y, curve_eq, levels=[0], colors='blue')
+
+fixed_point = (1, -2)
+ax.plot(0, 0, 'ko', markersize=8, label='Origin')
+ax.plot(fixed_point[0], fixed_point[1], 'r*', markersize=15, label=f'Fixed Point')
+
+m_values = [-1.5, 0.2, 1.0]
+colors = ['green', 'purple', 'orange']
+for i, m in enumerate(m_values):
+    l = 1 + 2 * m
+    out = (ctypes.c_double * 4)()
+    if c_lib.find_intersections(l, m, out) == 0:
+        p1, p2 = (out[0], out[1]), (out[2], out[3])
+        ax.plot([p1[0], p2[0]], [p1[1], p2[1]], '-o', color=colors[i], label=f'Chord {i+1}')
+        ax.plot([0, p1[0]], [0, p1[1]], '--', color=colors[i])
+        ax.plot([0, p2[0]], [0, p2[1]], '--', color=colors[i])
+
+ax.legend(); ax.grid(True); ax.set_aspect('equal')
+plt.show()
+\end{lstlisting}
 \end{frame}
 
 \end{document}

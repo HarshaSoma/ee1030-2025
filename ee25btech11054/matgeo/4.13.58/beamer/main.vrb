@@ -1,0 +1,35 @@
+\frametitle{Python Code: visualizer.py}
+\begin{lstlisting}[language=Python]
+import ctypes, os
+import numpy as np
+import matplotlib.pyplot as plt
+
+lib_name = "./libsolver.so" # Adapt for Windows/macOS if needed
+c_lib = ctypes.CDLL(lib_name)
+c_lib.find_intersections.argtypes = [ctypes.c_double, ctypes.c_double, ctypes.POINTER(ctypes.c_double)]
+c_lib.find_intersections.restype = ctypes.c_int
+
+fig, ax = plt.subplots(figsize=(10, 8))
+x = np.linspace(-5, 7, 400); y = np.linspace(-6, 6, 400)
+X, Y = np.meshgrid(x, y)
+curve_eq = 3*X**2 - Y**2 - 2*X + 4*Y
+ax.contour(X, Y, curve_eq, levels=[0], colors='blue')
+
+fixed_point = (1, -2)
+ax.plot(0, 0, 'ko', markersize=8, label='Origin')
+ax.plot(fixed_point[0], fixed_point[1], 'r*', markersize=15, label=f'Fixed Point')
+
+m_values = [-1.5, 0.2, 1.0]
+colors = ['green', 'purple', 'orange']
+for i, m in enumerate(m_values):
+    l = 1 + 2 * m
+    out = (ctypes.c_double * 4)()
+    if c_lib.find_intersections(l, m, out) == 0:
+        p1, p2 = (out[0], out[1]), (out[2], out[3])
+        ax.plot([p1[0], p2[0]], [p1[1], p2[1]], '-o', color=colors[i], label=f'Chord {i+1}')
+        ax.plot([0, p1[0]], [0, p1[1]], '--', color=colors[i])
+        ax.plot([0, p2[0]], [0, p2[1]], '--', color=colors[i])
+
+ax.legend(); ax.grid(True); ax.set_aspect('equal')
+plt.show()
+\end{lstlisting}
